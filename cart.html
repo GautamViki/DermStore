@@ -20,7 +20,7 @@
                   rel="stylesheet"
             />
 
-            <link rel="stylesheet" href="/cart.css" />
+            <link rel="stylesheet" href="/Style/cart.css" />
       </head>
       <body>
             <!-- <div id="navbar"></div> -->
@@ -28,7 +28,9 @@
                   <div id="head">
                         <p id="heading">Your Cart</p>
                         <p id="button-Checkout">
+                              <a href="/checkout.html">
                               <button>CHECKOUT SECURLY NOW</button>
+                        </a>
                         </p>
                   </div>
                   <!-- <p id="heading">Your Cart</p> -->
@@ -81,23 +83,51 @@
                         <div id="cartDivShowRight"></div>
                   </div>
                   <hr>
-                  <div id="couponDiv">
-                        <input type="text" placeholder="Got a coupon code? Enter it here:">
+                  <div id="totalPrice">
+                        <p class="pro">Rewards members earn 300 points on this order</p>
+                        <p >Cart Subtotal:
+                        </p>
+                        <p class="total"></p>
+
                   </div>
+                  <hr>
+                  <div id="couponDiv">
+                              <input id="coupon-code" type="text" placeholder="Got a coupon code? Enter it here:">
+                              <button id="Add-code">ADD</button>
+                  </div>
+                  <hr>
+                  <div id="head">
+                        <p id="shop"><button>CONTINUE SHOPPING</button></p>
+                        <p id="button-Checkout">
+                              <a href="/checkout.html">
+                              <button>CHECKOUT SECURLY NOW</button>
+                        </a>
+                        </p>
+                  </div>
+                  <div id="pay">
+                        <button><p>Klarna.</p></button>
+                        <button><p>Klarna.</p></button>
+                        <button><p><img src="/Image/payment.svg" alt=""></p></button>
+                        <button><p>afterpay</p></button>
+                        <button><p><img src="/Image/google.svg" alt=""> Pay</p></button>
+                        <button><p>sezzle</p></button>
+                  </div>
+                  <hr>
             </div>
+            
 
             <!-- Add footer of the page -->
             <!-- <div id="footer"></div> -->
 
 
 
-            <!-- <form id="form">
+             <!-- <form id="form">
                   <input type="text" placeholder="url" id="url">
                   <input type="text" placeholder="name" id="name">
                   <input type="text" placeholder="price" id="price">
                   <input type="submit" id="submit">
-            </form> -->
+            </form>  -->
       </body>
 </html>
-<script src="/cart.js"></script>
+<script src="/Script/cart.js"></script>
 <!-- <script src="/new.js"></script> -->
