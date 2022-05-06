@@ -1,26 +1,27 @@
-function header(){
-    return
-    `  <div id="_header1">
-    <img id="img"
-        src="https://invitationdigital-res-1.cloudinary.com/image/upload/w_200,h_200,q_auto,fl_strip_profile,f_auto/dermstore_logo_1.jpg"
-        alt="">
-    <form class="example" action="action_page.php">
-        <input type="text" placeholder="Search for a Product or brand" name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-    <!-- <div id="_c_s"> -->
-    <div id="_account">
-        <img src="https://cdn.iconscout.com/icon/free/png-64/account-dashboard-man-person-profile-avatar-31698.png"
-            alt="">
-            <a href="#"><p> Account</p></a>
-    </div>
-    <div id="_count">
-        <img src="https://cdn.iconscout.com/icon/free/png-64/cart-2188800-1844241.png" alt="">
-        <a href="#"> <p> Cart</p></a>
-    </div>
+function header() {
+  return;
+  `   <div id="_header1">
+  <a href="index.html"> <img id="img"
+   src="https://invitationdigital-res-1.cloudinary.com/image/upload/w_200,h_200,q_auto,fl_strip_profile,f_auto/dermstore_logo_1.jpg"
+   alt=""></a>
+   <form class="example" action="action_page.php">
+       <input type="text" placeholder="Search for a Product or brand" name="search">
+       <button type="submit"><i class="fa fa-search"></i></button>
+   </form>
+   <!-- <div id="_c_s"> -->
+   <div id="_account">
+       <img src="https://cdn.iconscout.com/icon/free/png-64/account-dashboard-man-person-profile-avatar-31698.png"
+           alt="">
+           <a href="#"><p> Account</p></a>
+   </div>
+   <div id="_count">
+       <img src="https://cdn.iconscout.com/icon/free/png-64/cart-2188800-1844241.png" alt="">
+       <a href="cart.html"> <p> Cart</p></a>
+   </div>
 
-    <!-- </div> -->
-    <br>
+
+   <!-- </div> -->
+   <br>
 </div>
 
 
@@ -28,528 +29,522 @@ function header(){
 <!-- header2************************************************** -->
 
 <div id="_header2">
-    <div class="dropdown">
-      <button class="dropbtn">
-        Brands
-      </button>
-      <div class="dropdown-content">
-        <div class="row">
-          <div class="column">
-            <h4>Concern</h4>
-            <a href="#">BB CREAM </a>
-            <a href="#">BLUSH</a>
-            <a href="#">Bronzer </a>
-            <a href="#">CC Cream </a>
-            <a href="#">Contour </a>
-            <a href="#">Concealer </a>
-            <a href="#">Compact & Powder </a>
-            <a href="#">Face Primer </a>
-            <a href="#">Foundation </a>
-           
-           
-          </div>
-
-
-
-          <div class="column">
-            <h4>Skin Type</h4>
-            <a href="#"> Contact Lenses </a>
-            <a href="#"> Eye Kit </a>
-            <a href="#"> Eyeliner </a>
-            <a href="#"> Eye Shadow </a>
-            <a href="#"> Eye Primer </a>
-            <a href="#"> Eye-Palettes </a>
-            <a href="#"> Eye Makeup Remover </a>
-            <a href="#"> Eye Brow Enhancers </a>
+   <div class="dropdown">
+     <button class="dropbtn">
+       Brands
+     </button>
+     <div class="dropdown-content">
+       <div class="row">
+         <div class="column">
+           <h4>Concern</h4>
+           <a href="BB_cream.html">BB CREAM </a>
+           <a href="#">BLUSH</a>
+           <a href="#">Bronzer </a>
+           <a href="#">CC Cream </a>
+           <a href="#">Contour </a>
+           <a href="#">Concealer </a>
+           <a href="#">Compact & Powder </a>
+           <a href="#">Face Primer </a>
+           <a href="#">Foundation </a>
           
           
-          </div>
-          <div class="column">
-            <h4>Tools</h4>
-            <a href="#"> All Cream</a>
-            <a href="#">Body Moisturizers</a>
-            <a href="#"> Body Toners</a>
-            <a href="#">Body Sun Care</a>
-            <a href="#">Brightening Lotion</a>
-            <a href="#">Dark Circles & Wrinkles</a>
-            <a href="#"> Day Cream</a>
-            <a href="#">Foot Cream</a>
-            <a href="#"> Hair Remover Cream</a>
-            <a href="#"> Hand Creams</a>
-            <a href="#">Hands & Feet</a>
-            <a href="#"> Kits & Combost</a>
-            <a href="#"> Night Cream</a>
-            <a href="#"> Neck Creams</a>
-          </div>
+         </div>
 
-          <div class="column">
-            <h4>Hair CARE</h4>
-            <a href="#">Blush Brush</a>
-            <a href="#">Eyelash Curlers</a>
-            <a href="#">Eye Brush</a>
-            <a href="#">Face Brush</a>
-            <a href="#">Lip Brush</a>
-            <a href="#">Makeup Pouches</a>
-            <a href="#">Mirrors</a>
-            <a href="#">Sponges & Applicators</a>
-            <a href="#">Sharpeners</a>
-            <a href="#">Tweezers</a>
-          </div>
 
-          <div class="column">
-            <h4>Devices</h4>
-            <a href="#">Lipstick</a>
-            <a href="#">Liquid Lipstick</a>
-            <a href="#">Lip Liner</a>
-            <a href="#">Lip Gloss</a>
-            <a href="#">Lip Balm</a>
-            <a href="#">Lip Crayon</a>
-            <a href="#">Lip Stain</a>
-            <a href="#">Lip Stain</a>
-          </div>
 
-          <div class="column">
-            <h4>Consern</h4>
-            <a href="#">Lipstick</a>
-            <a href="#">Liquid Lipstick</a>
-            <a href="#">Lip Liner</a>
-            <a href="#">Lip Gloss</a>
-            <a href="#">Lip Balm</a>
-            <a href="#">Lip Crayon</a>
-            <a href="#">Lip Stain</a>
-            <a href="#">Lip Stain</a>
-          </div>
-
-          <div class="column">
-            <h4>Body</h4>
-           
-            <a href="#">Color Protection </a>
-            <a href="#">Dandruff</a>
-            <a href="#">Dry Shampoo</a>
-            <a href="#"> Gels & Waxes </a>
-            <a href="#">Hair Spray</a>
-            <a href="#">Hair Color/ Dye</a>
-            <a href="#">Hair Creams & Masks </a>
-            <a href="#">Hair Styling</a>
-            <a href="#">Hairfall & Thinning </a>
-            <a href="#">Straighteners </a>
-          </div>
-
-          <div class="column">
-            <h4>New</h4>
-            <a href="#">Lipstick</a>
-            <a href="#">Liquid Lipstick</a>
-            <a href="#">Lip Liner</a>
-            <a href="#">Lip Gloss</a>
-            <a href="#">Lip Balm</a>
-            <a href="#">Lip Crayon</a>
-            <a href="#">Lip Stain</a>
-            <a href="#">Lip Stain</a>
-          </div>
-
-          <div class="column">
-            <h4>Sale</h4>
-            <a href="#"> Conditioner </a>
-            <a href="#"> Hair Oil </a>
-            <a href="#"> Hair Serum </a>
-            <a href="#"> Hair Growth Solutions </a>
-            <a href="#"> Shampoo </a>
-          </div>
-
-          <div class="column">
-            <h4>BOth</h4>
-            <a href="#">Lipstick</a>
-            <a href="#">Liquid Lipstick</a>
-            <a href="#">Lip Liner</a>
-            <a href="#">Lip Gloss</a>
-            <a href="#">Lip Balm</a>
-            <a href="#">Lip Crayon</a>
-            <a href="#">Lip Stain</a>
-            <a href="#">Lip Stain</a>
-          </div>
-          
-
+         <div class="column">
+           <h4>Skin Type</h4>
+           <a href="#"> Contact Lenses </a>
+           <a href="#"> Eye Kit </a>
+           <a href="#"> Eyeliner </a>
+           <a href="#"> Eye Shadow </a>
+           <a href="#"> Eye Primer </a>
+           <a href="#"> Eye-Palettes </a>
+           <a href="#"> Eye Makeup Remover </a>
+           <a href="#"> Eye Brow Enhancers </a>
          
          
-        </div>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">
-        Browse By
-      </button>
-      <div class="dropdown-content">
-        <div class="row">
-          <div class="column">
-            <h4>FACE</h4>
-            <a href="#">Dark Circles </a>
-            <a href="#">Eye Contour Care</a>
-            <a href="#">Eye Cream</a>
-            <a href="#"> Eye Masks </a>
-            <a href="#"> Eye Serums </a>
-            <a href="#">Puffiness </a>
-            <a href="#">Under Eye Creams </a>
-            <a href="#">Under Eye Wrinkles</a>
-          </div>
-          <div class="column">
-            <h4>Hair</h4>
-            <a href="#"> Anti- Ageing Creams </a>
-            <a href="#"> Bleach Creams </a>
-            <a href="#"> Brightening Cream </a>
-            <a href="#"> Face Wash </a>
-            <a href="#"> Facial Wipes </a>
-            <a href="#"> Face Oil </a>
-            <a href="#"> Face Cleansers </a>
-            <a href="#"> Facial Kits </a>
-            <a href="#"> Face Tools </a>
-            <a href="#"> Moisturizer </a>
-            <a href="#"> Mask & Peels </a>
-            <a href="#">Serum</a>
-            <a href="#">Toner & Astringents</a>
-          </div>
-          <div class="column">
-            <h4>Skin</h4>
-            <a href="#"> All Cream</a>
-            <a href="#">Body Moisturizers</a>
-            <a href="#"> Body Toners</a>
-            <a href="#">Body Sun Care</a>
-            <a href="#">Brightening Lotion</a>
-            <a href="#">Dark Circles & Wrinkles</a>
-            <a href="#"> Day Cream</a>
-            <a href="#">Foot Cream</a>
-            <a href="#"> Hair Remover Cream</a>
-            <a href="#"> Hand Creams</a>
-            <a href="#">Hands & Feet</a>
-            <a href="#"> Kits & Combost</a>
-            <a href="#"> Night Cream</a>
-            <a href="#"> Neck Creams</a>
-          </div>
-        </div>
-      </div>
-    </div>
+         </div>
+         <div class="column">
+           <h4>Tools</h4>
+           <a href="#"> All Cream</a>
+           <a href="#">Body Moisturizers</a>
+           <a href="#"> Body Toners</a>
+           <a href="#">Body Sun Care</a>
+           <a href="#">Brightening Lotion</a>
+           <a href="#">Dark Circles & Wrinkles</a>
+           <a href="#"> Day Cream</a>
+           <a href="#">Foot Cream</a>
+           <a href="#"> Hair Remover Cream</a>
+           <a href="#"> Hand Creams</a>
+           <a href="#">Hands & Feet</a>
+           <a href="#"> Kits & Combost</a>
+           <a href="#"> Night Cream</a>
+           <a href="#"> Neck Creams</a>
+         </div>
 
-    <div class="dropdown">
-      <button class="dropbtn">
-        HAIR
-      </button>
-      <div class="dropdown-content">
-        <div class="row">
-          <div class="column">
-            <h4>FACE</h4>
-            <a href="#">Color Protection </a>
-            <a href="#">Dandruff</a>
-            <a href="#">Dry Shampoo</a>
-            <a href="#"> Gels & Waxes </a>
-            <a href="#">Hair Spray</a>
-            <a href="#">Hair Color/ Dye</a>
-            <a href="#">Hair Creams & Masks </a>
-            <a href="#">Hair Styling</a>
-            <a href="#">Hairfall & Thinning </a>
-            <a href="#">Straighteners </a>
-          </div>
-          <div class="column">
-            <h4>Teeth</h4>
-            <a href="#"> Conditioner </a>
-            <a href="#"> Hair Oil </a>
-            <a href="#"> Hair Serum </a>
-            <a href="#"> Hair Growth Solutions </a>
-            <a href="#"> Shampoo </a>
-          </div>
-        </div>
-      </div>
-    </div>
+         <div class="column">
+           <h4>Hair CARE</h4>
+           <a href="#">Blush Brush</a>
+           <a href="#">Eyelash Curlers</a>
+           <a href="#">Eye Brush</a>
+           <a href="#">Face Brush</a>
+           <a href="#">Lip Brush</a>
+           <a href="#">Makeup Pouches</a>
+           <a href="#">Mirrors</a>
+           <a href="#">Sponges & Applicators</a>
+           <a href="#">Sharpeners</a>
+           <a href="#">Tweezers</a>
+         </div>
 
-    <div class="dropdown">
-      <button class="dropbtn">
-        Best Sellers
-      </button>
-      <div class="dropdown-content">
-        <div class="row">
-          <div class="column">
-            <h4>Body</h4>
-            <a href="#">Body Cleansers </a>
-            <a href="#">Body Massage Oil</a>
-            <a href="#">Body Wash</a>
-            <a href="#"> Creams </a>
-            <a href="#">Essential Oils</a>
-            <a href="#">Foot Cream</a>
-            <a href="#">Scrubs & Exfoliants </a>
-            <a href="#">Ubtan & Face Packs</a>
-          </div>
-          <div class="column">
-            <h4>Skin Care</h4>
-            <a href="#"> Bath Brushes </a>
-            <a href="#"> Loofahs </a>
-            <a href="#"> Shower Caps </a>
-            <a href="#"> Sponges </a>
-          </div>
-          <div class="column">
-            <h4>Hair</h4>
-            <a href="#"> Body Soaps </a>
-            <a href="#"> Shower Ge </a>
-            <a href="#"> Shower Caps </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">
-        MOMS &BABY CARE
-      </button>
-      <div class="dropdown-content">
-        <div class="row">
-          <div class="column">
-            <h4>FACE</h4>
-            <a href="#">Bath Time </a>
-            <a href="#">Diapers</a>
-            <a href="#">Lotions & Creams</a>
-            <a href="#"> Creams </a>
-            <a href="#"> Oils</a>
-            <a href="#">Powder</a>
-            <a href="#">Shampoo</a>
-            <a href="#">Soaps</a>
-            <a href="#">Sterilizer & Cleaners</a>
-            <a href="#">Rash Cream</a>
-            <a href="#">Wipes</a>
-          </div>
-          <div class="column">
-            <h4>Both Body</h4>
-            <a href="#"> Lotions & Creams </a>
-            <a href="#"> Personal Care </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">
-        Makeup
-      
-      </button>
-      <div class="dropdown-content">
-        <div class="row">
-          <div class="column">
-            <h4>FACE</h4>
-            <a href="#"> Perfumes </a>
-            <a href="#">Deodorants roll ons</a>
-            <a href="#">Body Mist/Spray</a>
-          </div>
-        </div>
-      </div>
-    </div>
+         <div class="column">
+           <h4>Devices</h4>
+           <a href="#">Lipstick</a>
+           <a href="#">Liquid Lipstick</a>
+           <a href="#">Lip Liner</a>
+           <a href="#">Lip Gloss</a>
+           <a href="#">Lip Balm</a>
+           <a href="#">Lip Crayon</a>
+           <a href="#">Lip Stain</a>
+           <a href="#">Lip Stain</a>
+         </div>
 
-    <div class="dropdown">
-      <button class="dropbtn">
-        Hair Care
+         <div class="column">
+           <h4>Consern</h4>
+           <a href="#">Lipstick</a>
+           <a href="#">Liquid Lipstick</a>
+           <a href="#">Lip Liner</a>
+           <a href="#">Lip Gloss</a>
+           <a href="#">Lip Balm</a>
+           <a href="#">Lip Crayon</a>
+           <a href="#">Lip Stain</a>
+           <a href="#">Lip Stain</a>
+         </div>
 
-      </button>
-      <div class="dropdown-content">
-        <div class="row">
-          <div class="column">
-            <h4>Hare take</h4>
+         <div class="column">
+           <h4>Body</h4>
+          
+           <a href="#">Color Protection </a>
+           <a href="#">Dandruff</a>
+           <a href="#">Dry Shampoo</a>
+           <a href="#"> Gels & Waxes </a>
+           <a href="#">Hair Spray</a>
+           <a href="#">Hair Color/ Dye</a>
+           <a href="#">Hair Creams & Masks </a>
+           <a href="#">Hair Styling</a>
+           <a href="#">Hairfall & Thinning </a>
+           <a href="#">Straighteners </a>
+         </div>
 
-            <a href="#">Body Wash </a>
-            <a href="#">Body Lotion</a>
-            <a href="#">Lotions & Creams</a>
-            <a href="#"> Cleansers </a>
-            <a href="#"> Cream</a>
-            <a href="#">Eye Care</a>
-            <a href="#">Face Wash</a>
-            <a href="#">Gel</a>
-            <a href="#">Lip Care</a>
-            <a href="#">Mask</a>
-            <a href="#">Pack</a>
-            <a href="#">Scrub</a>
-            <a href="#">Sun Protection</a>
-          </div>
-          <div class="column">
-            <h4>Body</h4>
-            <a href="#"> Conditioner</a>
-            <a href="#"> Hair Oils </a>
-            <a href="#"> Hair Serum </a>
-            <a href="#"> Hair Gel</a>
-            <a href="#"> Shampoo</a>
-          </div>
-        </div>
-      </div>
-    </div>
+         <div class="column">
+           <h4>New</h4>
+           <a href="#">Lipstick</a>
+           <a href="#">Liquid Lipstick</a>
+           <a href="#">Lip Liner</a>
+           <a href="#">Lip Gloss</a>
+           <a href="#">Lip Balm</a>
+           <a href="#">Lip Crayon</a>
+           <a href="#">Lip Stain</a>
+           <a href="#">Lip Stain</a>
+         </div>
 
-    <div class="dropdown">
-        <button class="dropbtn">
-          Tools
-        </button>
-        <div class="dropdown-content">
-          <div class="row">
-            <div class="column">
-                <h4>Color</h4>
-              <a href="#">Dark Circles </a>
-              <a href="#">Eye Contour Care</a>
-              <a href="#">Eye Cream</a>
-              <a href="#"> Eye Masks </a>
-              <a href="#"> Eye Serums </a>
-              <a href="#">Puffiness </a>
-              <a href="#">Under Eye Creams </a>
-              <a href="#">Under Eye Wrinkles</a>
-            </div>
-            <div class="column">
-                <h4>Cosmetics</h4>
-              <a href="#"> Anti- Ageing Creams </a>
-              <a href="#"> Bleach Creams </a>
-              <a href="#"> Brightening Cream </a>
-              <a href="#"> Face Wash </a>
-              <a href="#"> Facial Wipes </a>
-              <a href="#"> Face Oil </a>
-              <a href="#"> Face Cleansers </a>
-              <a href="#"> Facial Kits </a>
-              <a href="#"> Face Tools </a>
-              <a href="#"> Moisturizer </a>
-              <a href="#"> Mask & Peels </a>
-              <a href="#">Serum</a>
-              <a href="#">Toner & Astringents</a>
-            </div>
-            <div class="column">
-                <h4>Concern</h4>
-              <a href="#"> All Cream</a>
-              <a href="#">Body Moisturizers</a>
-              <a href="#"> Body Toners</a>
-              <a href="#">Body Sun Care</a>
-              <a href="#">Brightening Lotion</a>
-              <a href="#">Dark Circles & Wrinkles</a>
-              <a href="#"> Day Cream</a>
-              <a href="#">Foot Cream</a>
-              <a href="#"> Hair Remover Cream</a>
-              <a href="#"> Hand Creams</a>
-              <a href="#">Hands & Feet</a>
-              <a href="#"> Kits & Combost</a>
-              <a href="#"> Night Cream</a>
-              <a href="#"> Neck Creams</a>
-            </div>
-          </div>
-        </div>
-      </div>
+         <div class="column">
+           <h4>Sale</h4>
+           <a href="#"> Conditioner </a>
+           <a href="#"> Hair Oil </a>
+           <a href="#"> Hair Serum </a>
+           <a href="#"> Hair Growth Solutions </a>
+           <a href="#"> Shampoo </a>
+         </div>
+
+         <div class="column">
+           <h4>BOth</h4>
+           <a href="#">Lipstick</a>
+           <a href="#">Liquid Lipstick</a>
+           <a href="#">Lip Liner</a>
+           <a href="#">Lip Gloss</a>
+           <a href="#">Lip Balm</a>
+           <a href="#">Lip Crayon</a>
+           <a href="#">Lip Stain</a>
+           <a href="#">Lip Stain</a>
+         </div>
+         
+
+        
+        
+       </div>
+     </div>
+   </div>
+   <div class="dropdown">
+     <button class="dropbtn">
+       Browse By
+     </button>
+     <div class="dropdown-content">
+       <div class="row">
+         <div class="column">
+           <h4>FACE</h4>
+           <a href="dark_circles.html">Dark Circles </a>
+           <a href="#">Eye Contour Care</a>
+           <a href="#">Eye Cream</a>
+           <a href="#"> Eye Masks </a>
+           <a href="#"> Eye Serums </a>
+           <a href="#">Puffiness </a>
+           <a href="#">Under Eye Creams </a>
+           <a href="#">Under Eye Wrinkles</a>
+         </div>
+         <div class="column">
+           <h4>Hair</h4>
+           <a href="#"> Anti- Ageing Creams </a>
+           <a href="#"> Bleach Creams </a>
+           <a href="#"> Brightening Cream </a>
+           <a href="#"> Face Wash </a>
+           <a href="#"> Facial Wipes </a>
+           <a href="#"> Face Oil </a>
+           <a href="#"> Face Cleansers </a>
+           <a href="#"> Facial Kits </a>
+           <a href="#"> Face Tools </a>
+           <a href="#"> Moisturizer </a>
+           <a href="#"> Mask & Peels </a>
+           <a href="#">Serum</a>
+           <a href="#">Toner & Astringents</a>
+         </div>
+         <div class="column">
+           <h4>Skin</h4>
+           <a href="#"> All Cream</a>
+           <a href="#">Body Moisturizers</a>
+           <a href="#"> Body Toners</a>
+           <a href="#">Body Sun Care</a>
+           <a href="#">Brightening Lotion</a>
+           <a href="#">Dark Circles & Wrinkles</a>
+           <a href="#"> Day Cream</a>
+           <a href="#">Foot Cream</a>
+           <a href="#"> Hair Remover Cream</a>
+           <a href="#"> Hand Creams</a>
+           <a href="#">Hands & Feet</a>
+           <a href="#"> Kits & Combost</a>
+           <a href="#"> Night Cream</a>
+           <a href="#"> Neck Creams</a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="dropdown">
+     <button class="dropbtn">
+       HAIR
+     </button>
+     <div class="dropdown-content">
+       <div class="row">
+         <div class="column">
+           <h4>FACE</h4>
+           <a href="#">Color Protection </a>
+           <a href="#">Dandruff</a>
+           <a href="#">Dry Shampoo</a>
+           <a href="#"> Gels & Waxes </a>
+           <a href="#">Hair Spray</a>
+           <a href="#">Hair Color/ Dye</a>
+           <a href="#">Hair Creams & Masks </a>
+           <a href="#">Hair Styling</a>
+           <a href="#">Hairfall & Thinning </a>
+           <a href="#">Straighteners </a>
+         </div>
+         <div class="column">
+           <h4>Teeth</h4>
+           <a href="#"> Conditioner </a>
+           <a href="#"> Hair Oil </a>
+           <a href="#"> Hair Serum </a>
+           <a href="#"> Hair Growth Solutions </a>
+           <a href="shampoo.html"> Shampoo </a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="dropdown">
+     <button class="dropbtn">
+       Best Sellers
+     </button>
+     <div class="dropdown-content">
+       <div class="row">
+         <div class="column">
+           <h4>Body</h4>
+           <a href="#">Body Cleansers </a>
+           <a href="#">Body Massage Oil</a>
+           <a href="#">Body Wash</a>
+           <a href="#"> Creams </a>
+           <a href="#">Essential Oils</a>
+           <a href="#">Foot Cream</a>
+           <a href="#">Scrubs & Exfoliants </a>
+           <a href="#">Ubtan & Face Packs</a>
+         </div>
+         <div class="column">
+           <h4>Skin Care</h4>
+           <a href="#"> Bath Brushes </a>
+           <a href="#"> Loofahs </a>
+           <a href="#"> Shower Caps </a>
+           <a href="#"> Sponges </a>
+         </div>
+         <div class="column">
+           <h4>Hair</h4>
+           <a href="#"> Body Soaps </a>
+           <a href="#"> Shower Ge </a>
+           <a href="#"> Shower Caps </a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="dropdown">
+     <button class="dropbtn">
+       MOMS &BABY CARE
+     </button>
+     <div class="dropdown-content">
+       <div class="row">
+         <div class="column">
+           <h4>FACE</h4>
+           <a href="#">Bath Time </a>
+           <a href="#">Diapers</a>
+           <a href="#">Lotions & Creams</a>
+           <a href="#"> Creams </a>
+           <a href="#"> Oils</a>
+           <a href="#">Powder</a>
+           <a href="#">Shampoo</a>
+           <a href="#">Soaps</a>
+           <a href="#">Sterilizer & Cleaners</a>
+           <a href="#">Rash Cream</a>
+           <a href="#">Wipes</a>
+         </div>
+         <div class="column">
+           <h4>Both Body</h4>
+           <a href="#"> Lotions & Creams </a>
+           <a href="#"> Personal Care </a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="dropdown">
+     <button class="dropbtn">
+       Makeup
+     
+     </button>
+     <div class="dropdown-content">
+       <div class="row">
+         <div class="column">
+           <h4>FACE</h4>
+           <a href="#"> Perfumes </a>
+           <a href="#">Deodorants roll ons</a>
+           <a href="#">Body Mist/Spray</a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="dropdown">
+     <button class="dropbtn">
+       Hair Care
+
+     </button>
+     <div class="dropdown-content">
+       <div class="row">
+         <div class="column">
+           <h4>Hare take</h4>
+
+           <a href="#">Body Wash </a>
+           <a href="#">Body Lotion</a>
+           <a href="#">Lotions & Creams</a>
+           <a href="#"> Cleansers </a>
+           <a href="#"> Cream</a>
+           <a href="#">Eye Care</a>
+           <a href="#">Face Wash</a>
+           <a href="#">Gel</a>
+           <a href="#">Lip Care</a>
+           <a href="#">Mask</a>
+           <a href="#">Pack</a>
+           <a href="#">Scrub</a>
+           <a href="#">Sun Protection</a>
+         </div>
+         <div class="column">
+           <h4>Body</h4>
+           <a href="#"> Conditioner</a>
+           <a href="#"> Hair Oils </a>
+           <a href="#"> Hair Serum </a>
+           <a href="#"> Hair Gel</a>
+           <a href="#"> Shampoo</a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="dropdown">
+       <button class="dropbtn">
+         Tools
+       </button>
+       <div class="dropdown-content">
+         <div class="row">
+           <div class="column">
+               <h4>Color</h4>
+             <a href="#">Dark Circles </a>
+             <a href="#">Eye Contour Care</a>
+             <a href="#">Eye Cream</a>
+             <a href="#"> Eye Masks </a>
+             <a href="#"> Eye Serums </a>
+             <a href="#">Puffiness </a>
+             <a href="#">Under Eye Creams </a>
+             <a href="#">Under Eye Wrinkles</a>
+           </div>
+           <div class="column">
+               <h4>Cosmetics</h4>
+             <a href="#"> Anti- Ageing Creams </a>
+             <a href="#"> Bleach Creams </a>
+             <a href="#"> Brightening Cream </a>
+             <a href="#"> Face Wash </a>
+             <a href="#"> Facial Wipes </a>
+             <a href="#"> Face Oil </a>
+             <a href="#"> Face Cleansers </a>
+             <a href="#"> Facial Kits </a>
+             <a href="#"> Face Tools </a>
+             <a href="#"> Moisturizer </a>
+             <a href="#"> Mask & Peels </a>
+             <a href="#">Serum</a>
+             <a href="#">Toner & Astringents</a>
+           </div>
+           <div class="column">
+               <h4>Concern</h4>
+             <a href="#"> All Cream</a>
+             <a href="#">Body Moisturizers</a>
+             <a href="#"> Body Toners</a>
+             <a href="#">Body Sun Care</a>
+             <a href="#">Brightening Lotion</a>
+             <a href="#">Dark Circles & Wrinkles</a>
+             <a href="#"> Day Cream</a>
+             <a href="#">Foot Cream</a>
+             <a href="#"> Hair Remover Cream</a>
+             <a href="#"> Hand Creams</a>
+             <a href="#">Hands & Feet</a>
+             <a href="#"> Kits & Combost</a>
+             <a href="#"> Night Cream</a>
+             <a href="#"> Neck Creams</a>
+           </div>
+         </div>
+       </div>
+     </div>
 
 
-  <div class="dropdown">
-      <button class="dropbtn">
-        Devices
-      </button>
-      <div class="dropdown-content">
-        <div class="row">
-          <div class="column">
-            <h4>Driyer</h4>
-            <a href="#">Dark Circles </a>
-            <a href="#">Eye Contour Care</a>
-            <a href="#">Eye Cream</a>
-            <a href="#"> Eye Masks </a>
-            <a href="#"> Eye Serums </a>
-            <a href="#">Puffiness </a>
-            <a href="#">Under Eye Creams </a>
-            <a href="#">Under Eye Wrinkles</a>
-          </div>
-          <div class="column">
-            <h4>Color</h4>
-            <a href="#"> Anti- Ageing Creams </a>
-            <a href="#"> Bleach Creams </a>
-            <a href="#"> Brightening Cream </a>
-            <a href="#"> Face Wash </a>
-            <a href="#"> Facial Wipes </a>
-            <a href="#"> Face Oil </a>
-            <a href="#"> Face Cleansers </a>
-            <a href="#"> Facial Kits </a>
-            <a href="#"> Face Tools </a>
-            <a href="#"> Moisturizer </a>
-            <a href="#"> Mask & Peels </a>
-            <a href="#">Serum</a>
-            <a href="#">Toner & Astringents</a>
-          </div>
-          <div class="column">
-            <h4>Cream</h4>
-            <a href="#"> All Cream</a>
-            <a href="#">Body Moisturizers</a>
-            <a href="#"> Body Toners</a>
-            <a href="#">Body Sun Care</a>
-            <a href="#">Brightening Lotion</a>
-            <a href="#">Dark Circles & Wrinkles</a>
-            <a href="#"> Day Cream</a>
-            <a href="#">Foot Cream</a>
-            <a href="#"> Hair Remover Cream</a>
-            <a href="#"> Hand Creams</a>
-            <a href="#">Hands & Feet</a>
-            <a href="#"> Kits & Combost</a>
-            <a href="#"> Night Cream</a>
-            <a href="#"> Neck Creams</a>
-          </div>
-        </div>
-      </div>
-    </div>
+ <div class="dropdown">
+     <button class="dropbtn">
+       Devices
+     </button>
+     <div class="dropdown-content">
+       <div class="row">
+         <div class="column">
+           <h4>Driyer</h4>
+           <a href="#">Dark Circles </a>
+           <a href="#">Eye Contour Care</a>
+           <a href="#">Eye Cream</a>
+           <a href="#"> Eye Masks </a>
+           <a href="#"> Eye Serums </a>
+           <a href="#">Puffiness </a>
+           <a href="#">Under Eye Creams </a>
+           <a href="#">Under Eye Wrinkles</a>
+         </div>
+         <div class="column">
+           <h4>Color</h4>
+           <a href="#"> Anti- Ageing Creams </a>
+           <a href="#"> Bleach Creams </a>
+           <a href="#"> Brightening Cream </a>
+           <a href="#"> Face Wash </a>
+           <a href="#"> Facial Wipes </a>
+           <a href="#"> Face Oil </a>
+           <a href="#"> Face Cleansers </a>
+           <a href="#"> Facial Kits </a>
+           <a href="#"> Face Tools </a>
+           <a href="#"> Moisturizer </a>
+           <a href="#"> Mask & Peels </a>
+           <a href="#">Serum</a>
+           <a href="#">Toner & Astringents</a>
+         </div>
+         <div class="column">
+           <h4>Cream</h4>
+           <a href="#"> All Cream</a>
+           <a href="#">Body Moisturizers</a>
+           <a href="#"> Body Toners</a>
+           <a href="#">Body Sun Care</a>
+           <a href="#">Brightening Lotion</a>
+           <a href="#">Dark Circles & Wrinkles</a>
+           <a href="#"> Day Cream</a>
+           <a href="#">Foot Cream</a>
+           <a href="#"> Hair Remover Cream</a>
+           <a href="#"> Hand Creams</a>
+           <a href="#">Hands & Feet</a>
+           <a href="#"> Kits & Combost</a>
+           <a href="#"> Night Cream</a>
+           <a href="#"> Neck Creams</a>
+         </div>
+       </div>
+     </div>
+   </div>
 
 
 <div class="dropdown">
-      <button class="dropbtn">
-        Gift & sets
-      </button>
-      <div class="dropdown-content">
-        <div class="row">
-          <div class="column">
-            <h4>FACE</h4>
-            <a href="#">Dark Circles </a>
-            <a href="#">Eye Contour Care</a>
-            <a href="#">Eye Cream</a>
-            <a href="#"> Eye Masks </a>
-            <a href="#"> Eye Serums </a>
-            <a href="#">Puffiness </a>
-            <a href="#">Under Eye Creams </a>
-            <a href="#">Under Eye Wrinkles</a>
-          </div>
-          <div class="column">
-            <h4>Bleadch Creams</h4>
-            <a href="#"> Anti- Ageing Creams </a>
-            <a href="#"> Bleach Creams </a>
-            <a href="#"> Brightening Cream </a>
-            <a href="#"> Face Wash </a>
-            <a href="#"> Facial Wipes </a>
-            <a href="#"> Face Oil </a>
-            <a href="#"> Face Cleansers </a>
-            <a href="#"> Facial Kits </a>
-            <a href="#"> Face Tools </a>
-            <a href="#"> Moisturizer </a>
-            <a href="#"> Mask & Peels </a>
-            <a href="#">Serum</a>
-            <a href="#">Toner & Astringents</a>
-          </div>
-          <div class="column">
-            <h4>Day Cream</h4>
-            <a href="#"> All Cream</a>
-            <a href="#">Body Moisturizers</a>
-            <a href="#"> Body Toners</a>
-            <a href="#">Body Sun Care</a>
-            <a href="#">Brightening Lotion</a>
-            <a href="#">Dark Circles & Wrinkles</a>
-            <a href="#"> Day Cream</a>
-            <a href="#">Foot Cream</a>
-            <a href="#"> Hair Remover Cream</a>
-            <a href="#"> Hand Creams</a>
-            <a href="#">Hands & Feet</a>
-            <a href="#"> Kits & Combost</a>
-            <a href="#"> Night Cream</a>
-            <a href="#"> Neck Creams</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-  </div>
+     <button class="dropbtn">
+       Gift & sets
+     </button>
+     <div class="dropdown-content">
+       <div class="row">
+         <div class="column">
+           <h4>FACE</h4>
+           <a href="#">Dark Circles </a>
+           <a href="#">Eye Contour Care</a>
+           <a href="#">Eye Cream</a>
+           <a href="#"> Eye Masks </a>
+           <a href="#"> Eye Serums </a>
+           <a href="#">Puffiness </a>
+           <a href="#">Under Eye Creams </a>
+           <a href="#">Under Eye Wrinkles</a>
+         </div>
+         <div class="column">
+           <h4>Bleadch Creams</h4>
+           <a href="#"> Anti- Ageing Creams </a>
+           <a href="#"> Bleach Creams </a>
+           <a href="#"> Brightening Cream </a>
+           <a href="#"> Face Wash </a>
+           <a href="#"> Facial Wipes </a>
+           <a href="#"> Face Oil </a>
+           <a href="#"> Face Cleansers </a>
+           <a href="#"> Facial Kits </a>
+           <a href="#"> Face Tools </a>
+           <a href="#"> Moisturizer </a>
+           <a href="#"> Mask & Peels </a>
+           <a href="#">Serum</a>
+           <a href="#">Toner & Astringents</a>
+         </div>
+         <div class="column">
+           <h4>Day Cream</h4>
+           <a href="#"> All Cream</a>
+           <a href="#">Body Moisturizers</a>
+           <a href="#"> Body Toners</a>
+           <a href="#">Body Sun Care</a>
+           <a href="#">Brightening Lotion</a>
+           <a href="#">Dark Circles & Wrinkles</a>
+           <a href="#"> Day Cream</a>
+           <a href="#">Foot Cream</a>
+           <a href="#"> Hair Remover Cream</a>
+           <a href="#"> Hand Creams</a>
+           <a href="#">Hands & Feet</a>
+           <a href="#"> Kits & Combost</a>
+           <a href="#"> Night Cream</a>
+           <a href="#"> Neck Creams</a>
+         </div>
+       </div>
+     </div>
+   </div>
+ 
+ </div>
 </div>
-
-
-
-
-
-`
+</div>`;
 }
 
-
-function footer(){
-    return `   <div id="_footer1">
+function footer() {
+  return `   <div id="_footer1">
 
     <div id="_a">
         <div id="pb">
@@ -683,4 +678,4 @@ function footer(){
 </div>  `;
 }
 
-export {header,footer}
+export { header, footer };

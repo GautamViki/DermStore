@@ -1,0 +1,105 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+  #monster {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+
+  #home {
+    display: flex;
+    gap: 5px;
+  }
+
+  #smallmonster {
+    display: flex;
+    gap: 1%;
+    margin-top: 20px;
+  }
+
+  #leftsidemonster {
+    /* border: 1px solid red; */
+    width: 50%;
+  }
+
+  #rightsidemonster {
+    /* border: 1px solid red; */
+    width: 180%;
+    padding: 0px 20px;
+  }
+  .leftSelectName {
+    font-size: 18px;
+  }
+
+  .leftSort {
+    width: 100%;
+    /* height: 30px; */
+    font-weight: 550;
+    margin-top: 20px;
+    font-size: 17px;
+    /* border: none; */
+    /* background-color: #f5f5f5; */
+    border-radius: 3px;
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1.5px solid black;
+  }
+
+  option {
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  /* ======================right monster */
+
+  .para {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
+  #sort {
+    width: 20%;
+    height: 35px;
+    font-size: 17px;
+    margin-left: 15px;
+  }
+
+  #sortlist {
+    margin-top: 30px;
+  }
+
+  #rockybhai {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .popatlal {
+    margin: auto;
+    /* align-items: center; */
+    /* border: 1px solid red; */
+  }
+
+  .popatlal2 {
+    text-align: center;
+  }
+
+  .btn_remove {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  .btn_remove:hover {
+    background-color: rgb(94, 90, 90);
+    border: rgb(94, 90, 90);
+  }
