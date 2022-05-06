@@ -2,6 +2,10 @@ body {
       margin: auto;
       font-family: Arial, Helvetica, sans-serif;
 }
+#topHead{
+      height: 40px;
+      background-color: #e7e9eb;
+}
 #img {
       margin-top: 5px;
       /* border: 1px solid red; */
@@ -14,13 +18,9 @@ body {
       box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 #_header1 {
-      /* height: 50%; */
       display: flex;
-      /* justify-content: space-between; */
-      /* padding: 2%; */
       gap: 8%;
       align-items: center;
-      /* border: 1px solid green; */
 }
 
 #_header2 {

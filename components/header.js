@@ -687,43 +687,37 @@ function footer() {
       <div id="_a1">
           
           <div id="_aa">
-                 <div><pi id="_p1">Help Center / FAQs</p></div>
-                 <div><pi id="_p7">Customer Service</p></div>
-                  <div> <pi id="_p3">Returns</p></div>
-                  <div> <pi id="_p4">Shipping Information</p></div>
-                  <div> <pi id="_p5">Order Status</p></div>
-                  <div><pi id="_p6">Cookie Settings</p></div>        
+                 <div><p >Help Center / FAQs</p></div>
+                 <div><p class="_p1">Customer Service</p></div>
+                  <div> <p class="_p1">Returns</p></div>
+                  <div> <p class="_p1">Shipping Information</p></div>
+                  <div> <p class="_p1">Order Status</p></div>
+                  <div><p class="_p1">Cookie Settings</p></div>        
           </div>
       </div>
       <div id="_b1">
-  
           <div id="_bb1">
-              <div>  <p id="_p2">My Account</p></div>
-              <div> <p id="_p2">Manage My Subscriptions</p></div>
-              <div>  <p id="_p2">My Favorites</p></div>
-              <div><p id="_p2">Referrals</p></div>
-              <div>  <p id="_p2">Order History</p></div>
-            
-             
-            
-              
-            
+              <div>  <p >My Account</p></div>
+              <div> <p class="_p2">Manage My Subscriptions</p></div>
+              <div>  <p class="_p2">My Favorites</p></div>
+              <div>  <p class="_p2">My Favorites</p></div>
+              <div><p class="_p2">Referrals</p></div>
+              <div>  <p class="_p2">Order History</p></div>
           </div>
-  
           <div id="_bb2">
-              <p id="_p3">Company</p>
-              <p id="_p3">About Us</p>
-              <p id="_p3">Press</p>
-              <p id="_p3">What is Klarna?</p>
+              <p >Company</p>
+              <p class="_p3">About Us</p>
+              <p class="_p3">Press</p>
+              <p class="_p3">What is Klarna?</p>
           </div>
   
           <div id="_bb3">
-              <p id="_p4">Legal</p>
-              <p id="_p4">Privacy Policy</p>
-              <p id="_p4">Terms & Conditions</p>
-              <p id="_p4">Modern Slavey Statement </p>
-              <p id="_p4">Poduct Recall</p>
-              <p id="_p4">Accessibility</p>
+              <p >Legal</p>
+              <p class="_p4">Privacy Policy</p>
+              <p class="_p4">Terms & Conditions</p>
+              <p class="_p4">Modern Slavey Statement </p>
+              <p class="_p4">Poduct Recall</p>
+              <p class="_p4">Accessibility</p>
           </div>
       </div>
   </div>
@@ -752,9 +746,8 @@ function footer() {
                   <img src="https://cdn.iconscout.com/icon/free/png-64/paypal-58-711793.png" alt="">
                   <img src="https://cdn.iconscout.com/icon/free/png-64/mastercard-3521564-2944982.png" alt="">
                   <img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/buy-card-checkout-credit-income-maestro-online-payment-price-sale-shopping-33556.png" alt="">
-              
                   <img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/amex-american-business-buy-card-cart-cash-checkout-donate-express-financial-33550.png" alt="">
-                  <img src="https://iconscout.com/icon/discover-network-1" alt="">
+              
                   <img src="https://cdn.iconscout.com/icon/free/png-64/diners-club-international-675719.png" alt="">
                   <img src="https://cdn.iconscout.com/icon/free/png-64/apple-pay-3628038-3030419.png" alt="">
                   <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/paylater-5101052-4252962.png" alt="">
