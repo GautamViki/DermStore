@@ -1,5 +1,9 @@
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // {
+import { vikasHead,footer } from "../components/header.js";
+document.getElementById("_header").innerHTML=vikasHead();
+document.getElementById("footerVikas").innerHTML=footer();
+
 let dataArr = JSON.parse(localStorage.getItem("CartItems"));
 // console.log(dataArr);
 let appendData = (dataArr) => {

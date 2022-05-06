@@ -32,15 +32,11 @@
 #_btn{
     background-color: #222222;
     color: #ffffff;
-    width: 150px ;
-    height: 30px;
-    /* padding: 10px; */
-    text-align: center;
-    margin-top: 2px;
-    
+    padding: 12px 25px;
+    border: none;    
 }
 #_btn:hover{
-    background-color: #3f1f1f;
+    background-color: #464545;
     color: white;
 }
 
@@ -55,6 +51,7 @@
 }
 #pb>p{
     color: #000000;
+    font-size: 15px;
 }
 #p_i{
     /* text-align: center; */
@@ -64,8 +61,8 @@
 }
 #p_i>div>img{
     border-radius: 30px;
-    background-color: #b4b4b4;
-    height: 30px;
+    background-color: #dddada;
+    height: 35px;
 }
 #p_i>div>img:hover{
     background-color: #ffffff;
@@ -96,9 +93,10 @@
     /* border: 1px solid #999999; */
 }
 #_aa{
-    margin: 5%;
+    margin: 20px;
     border-top: 1px solid #b6b1b1;
     padding: 5px;
+    font-size: 14px;
     /* width: 50%; */
    
 }

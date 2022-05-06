@@ -87,10 +87,7 @@ body {
       display: flex;
       justify-content: space-between;
 }
-/* #_input{
-    height: 30px;
-    width: 40%;
-} */
+
 #btn {
       height: 40px;
       width: 50px;
@@ -110,7 +107,7 @@ form.example input[type="text"] {
       border: 1px solid grey;
       float: left;
       width: 80%;
-      background-color: #f1f1f1;
+      background-color: #ffffff;
       border-right: none;
 }
 
@@ -139,21 +136,10 @@ form.example::after {
       display: table;
 }
 
-/* hader2************************************** */
-
-/* 
-  * {
-    font-family: "Roboto", sans-serif;
-  } */
-
-/* navbar css start */
-
 .navbar {
       width: 100%;
       overflow: hidden;
       display: flex;
-      /* background-color: #dd0285;  */
-      /* justify-content: space-between; */
       margin-top: 5px;
 }
 
@@ -165,20 +151,10 @@ form.example::after {
       padding: 14px 16px;
       text-decoration: none;
 }
-
-/* #monster {
-      /* border: 1px solid red; */
-
-/* margin: auto; */
-/* background-color: black; */
-/* } */
-
 .dropdown {
       float: left;
       overflow: hidden;
       margin-left: 10px;
-      /* color: red; */
-      /* border: 1px solid red; */
 }
 
 .dropdown .dropbtn {
@@ -186,7 +162,7 @@ form.example::after {
       padding: 10px;
       background-color: inherit;
       cursor: pointer;
-      font-size: 16px;
+      font-size: 15px;
       border: none;
       /* margin-left:-10px; */
 }
@@ -228,12 +204,8 @@ form.example::after {
 /* Create three equal columns that floats next to each other */
 .column {
       float: left;
-      /* width: 30%; */
       padding: 10px;
-      /* margin-right: 10px; */
       margin: auto;
-
-      /* margin-left: 10px; */
 }
 
 .column a {
@@ -276,5 +248,4 @@ form.example::after {
       margin-left: 1%;
       width: 98%;
       height: 40px;
-      /* margin: auto; */
 }
