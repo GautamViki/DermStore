@@ -7,7 +7,7 @@ let dataArr = JSON.parse(localStorage.getItem("cart"))||[];
 document.getElementById("cart-length").innerText=dataArr.length;
 // console.log(dataArr);
 let appendData = (dataArr) => {
-      document.getElementById("cartDivShowLeft").innerHTML = null;
+      document.getElementById("cart-show").innerHTML = null;
       let totalCostOfAllProducts = 0;
       dataArr.forEach((el, idx) => {
             //   console.log(el.title);
@@ -22,8 +22,8 @@ let appendData = (dataArr) => {
 
             let image = document.createElement("img");
             image.src = el.producturl;
-            image.style.height = "100px";
-            image.style.width = "100px";
+            image.style.height = "150px";
+            image.style.width = "150px";
             image.style.marginRight = "10px";
 
             let title = document.createElement("p");
@@ -33,7 +33,7 @@ let appendData = (dataArr) => {
             let fevi = document.createElement("p");
             fevi.innerText = "Save to My Favorites";
             fevi.style.cursor = "pointer";
-            fevi.style.width = "26%";
+            fevi.style.width = "35%";
             fevi.style.padding = "10px";
             fevi.addEventListener("mouseover", function () {
                   fevi.style.backgroundColor = "#e0e6ef";
@@ -46,7 +46,7 @@ let appendData = (dataArr) => {
             avl.innerText = "In stock - Usually dispatched within 24 hours";
 
             let titleDiv = document.createElement("div");
-            titleDiv.style.width = "43%";
+            titleDiv.style.width = "39.2%";
             // titleDiv.style.fontSize="15px"
             titleDiv.append(title, avl, fevi);
 
@@ -156,7 +156,7 @@ let appendData = (dataArr) => {
 
             cartBox.append(image, titleDiv, price, qty, totalPrice, deleteDiv);
 
-            document.getElementById("cartDivShowLeft").append(cartBox);
+            document.getElementById("cart-show").append(cartBox);
 
             totalCostOfAllProducts =
                   totalCostOfAllProducts + Number(totalPrice.innerText);

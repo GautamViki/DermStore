@@ -61,6 +61,7 @@
       font-size: 14px;
       font-weight: bold;
       margin-bottom: 10px;
+      /* border: 1px solid green; */
       /* font-family: 'Roboto', sans-serif; */
 }
 #cartTableHead div:nth-child(1) {
@@ -87,6 +88,7 @@
 #cartDivShowLeft {
       /* font-family: 'Roboto', sans-serif; */
       font-size: 15px;
+      /* border: 1px solid red; */
 }
 
 #totalPrice {
