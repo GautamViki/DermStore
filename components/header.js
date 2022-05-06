@@ -31,7 +31,7 @@ function vikasHead() {
                 src="https://cdn.iconscout.com/icon/free/png-64/cart-2188800-1844241.png"
                 alt=""
           />
-          <a href="DermStore\cart.html"> <p>Cart</p></a>
+          <a href="cart.html"> <p>Cart</p></a>
     </div>
 
     <!-- </div> -->
@@ -651,7 +651,7 @@ function footer() {
       <div id="_a">
           <div id="pb">
               <p>Sign up to our newsletters and receive the latest exclusive discounts and deals</p>
-              <button id="_btn">SIGNUP ME</button>
+              <button id="_btn">SIGN ME UP</button>
           </div>
       </div> 
   
