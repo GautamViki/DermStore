@@ -12,7 +12,7 @@ body{
 
 #_header{
 
-    height: 150px;
+    height: 200px;
     width: 98%;
     border: 1px solid black;
     margin: auto;
@@ -236,6 +236,7 @@ body{
   .dropdown:hover .dropbtn {
     background-color: #cccccc;
     color: #000000;
+   
     
   }
   
@@ -248,7 +249,10 @@ body{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     z-index: 1;
     width: auto;
-    border-radius: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    line-height: 25px;
  
   }
 
