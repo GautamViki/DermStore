@@ -73,7 +73,7 @@ let appendData = (dataArr) => {
             decButton.addEventListener("click", function () {
                   let count = Number(counting.innerText);
                   let pr = Number(totalPrice.innerText);
-                  console.log(pr);
+                  // console.log(pr);
                   let arrTo = decreFunc(el, idx, count, pr);
                   if (arrTo[0] <= 0) {
                         cartBox.style.border = "none";
@@ -83,7 +83,7 @@ let appendData = (dataArr) => {
                   totalPrice.innerText = arrTo[1];
                   totalCostOfAllProducts =
                         totalCostOfAllProducts - Number(el.price);
-                  console.log(totalCostOfAllProducts);
+                  // console.log(totalCostOfAllProducts);
                   document.querySelector(
                         ".total"
                   ).innerText = `$${totalCostOfAllProducts}`;
@@ -95,7 +95,7 @@ let appendData = (dataArr) => {
             incButton.addEventListener("click", function () {
                   let count = Number(counting.innerText);
                   let pr = Number(totalPrice.innerText);
-                  console.log(pr, typeof pr);
+                  // console.log(pr, typeof pr);
                   let incArr = increFunc(el, idx, count, pr);
                   counting.innerText = incArr[0];
                   totalPrice.innerText = incArr[1];
@@ -157,7 +157,7 @@ let appendData = (dataArr) => {
             totalCostOfAllProducts =
                   totalCostOfAllProducts + Number(totalPrice.innerText);
       });
-      console.log(totalCostOfAllProducts);
+      // console.log(totalCostOfAllProducts);
       document.querySelector(".total").innerText = `$${totalCostOfAllProducts}`;
 };
 

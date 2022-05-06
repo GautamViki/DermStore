@@ -1,0 +1,24 @@
+#order-container{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding:40px 50px 70px 50px;
+}
+p>i{
+    color: blue;
+    font-size: 60px;
+}
+h2+p+p{
+    margin-bottom: 40px;
+}
+p>a{
+    padding: 13px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}

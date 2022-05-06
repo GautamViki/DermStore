@@ -22,9 +22,9 @@
       color: white;
       cursor: pointer;
 }
-#button-Checkout > button:hover {
-      background-color: rgb(99, 97, 97);
-      border: 2px solid rgb(104, 102, 102);
+#button-Checkout >a> button:hover {
+      background-color: rgb(75, 73, 73);
+      border: 2px solid rgb(75, 73, 73);
 }
 .border {
       border: 1px solid #c5e3ee;
@@ -88,11 +88,8 @@
 }
 
 #totalPrice {
-      /* height: 70px; */
-      /* border: 1px solid blueviolet; */
       display: flex;
       justify-content: center;
-      /* font-weight: 500; */
 }
 #totalPrice > .total,
 .pro {
@@ -158,9 +155,8 @@
       margin-bottom: 70px;
 }
 #pay > button {
-      height: 42px;
+      height: 30px;
       cursor: pointer;
-      padding: 5px;
       background-color: white;
       border: 1px solid rgb(214, 213, 213);
       border-radius: 3px;
@@ -170,9 +166,9 @@
       justify-content: center;
       text-align: center;
       /* border: 1px solid red; */
-      padding: 2px;
       border-radius: 3px;
       margin: 4px 0px;
+      font-size: 12px;
 }
 #pay > button:nth-child(1) p {
       background-color: #ffb3c7;
@@ -199,7 +195,7 @@
       height: 16px;
 }
 #pay > button:nth-child(3) p > img {
-      width: 60px;
+      width: 50px;
       margin: -7px;
       padding: 0px 5px;
 }
@@ -215,4 +211,5 @@
       /* font-size: 17px; */
       font-weight: 600;
       padding: 0px 10px;
+      width: 20px;
 }

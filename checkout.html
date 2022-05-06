@@ -52,7 +52,7 @@
 
                               <p>* Email address</p>
                               <input
-                                    type="text"
+                                    type="email"
                                     id="email"
                                     class="input-checkout"
                               /><br />
@@ -60,6 +60,7 @@
                                     >We'll send the purchase receipt to this
                                     email.</span
                               >
+                              <p id="err-email"></p>
                               <p>Country/Region</p>
                               <input
                                     type="text"
@@ -72,18 +73,31 @@
                                     id="name"
                                     class="input-checkout"
                               />
+                              <p id="err-name"></p>
                               <p>Address Search</p>
                               <input
                                     type="search"
                                     class="input-checkout"
                                     id="address"
+                                    placeholder="Start typing your address..."
                               />
-                              <p>Contact Number</p>
+                              <span
+                                    ><a href="">
+                                          or Enter Address Manually</a
+                                    ></span
+                              >
+                              <p>*Contact Number</p>
                               <input
                                     type="text"
                                     class="input-checkout"
                                     id="number"
                               />
+                              <span
+                                    ><a href="">
+                                          Why do we need your number?</a
+                                    ></span
+                              >
+                              <p id="err-number"></p>
                         </div>
                         <div id="delivery">
                               <h3>2. Select Delivery Option</h3>
@@ -123,12 +137,14 @@
                                           id="cardNumber"
                                           class="input-checkout"
                                     />
+                                    <p id="err-cardNumber"></p>
                                     <p>*Name on card</p>
                                     <input
                                           type="text"
                                           id="nameOnCard"
                                           class="input-checkout"
                                     />
+                                    <p id="err-nameOn-card"></p>
                                     <p>*Expiry Date</p>
 
                                     <select id="month">
@@ -146,6 +162,7 @@
                                           <option value="11">11</option>
                                           <option value="12">12</option>
                                     </select>
+
                                     <select id="year">
                                           <option value="">Year</option>
                                           <option value="22">22</option>
@@ -161,12 +178,14 @@
                                           <option value="32">32</option>
                                           <option value="33">33</option>
                                     </select>
+                                    <p id="err-date"></p>
                                     <p>*Security Code (CV2)</p>
                                     <input
                                           type="text"
                                           id="CVV"
                                           class="input-payment"
                                     />
+                                    <p id="err-cvv"></p>
                                     <br />
                                     <input
                                           type="checkbox"
@@ -181,10 +200,25 @@
                               </div>
                         </div>
                         <div id="clickPayment">
-                            <button>SUBMIT MY ORDER</button>
+                              <button>SUBMIT MY ORDER</button>
                         </div>
+                        <p id="terms">
+                              By placing this order, you are confirming that you
+                              agree to our
+                              <a href=""> Terms and Conditions </a> and
+                              <a href=""> Privacy Policy.</a>
+                        </p>
                   </div>
                   <div id="checkout-right"></div>
             </div>
+            <div id="btm">
+                  <hr />
+                  <p>THGPP LLC</p>
+                  <p>
+                        1209 Orange Street, Wilmington, New Castle, DE 19801.
+                        United States
+                  </p>
+            </div>
       </body>
 </html>
+<script src="/Script/checkout.js"></script>
