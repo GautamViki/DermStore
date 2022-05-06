@@ -31,7 +31,8 @@ function vikasHead() {
                 src="https://cdn.iconscout.com/icon/free/png-64/cart-2188800-1844241.png"
                 alt=""
           />
-          <a href="cart.html"> <p>Cart</p></a>
+          <a href="cart.html"> <p><span id="cart-length"></span>
+          Cart</p></a>
     </div>
 
     <!-- </div> -->

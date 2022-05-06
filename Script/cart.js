@@ -1,10 +1,10 @@
-//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-// {
+
 import { vikasHead,footer } from "../components/header.js";
 document.getElementById("_header").innerHTML=vikasHead();
 document.getElementById("footer").innerHTML=footer();
 
 let dataArr = JSON.parse(localStorage.getItem("cart"))||[];
+document.getElementById("cart-length").innerText=dataArr.length;
 // console.log(dataArr);
 let appendData = (dataArr) => {
       document.getElementById("cartDivShowLeft").innerHTML = null;
@@ -182,6 +182,7 @@ let increFunc = (el, idx, count, pr) => {
 let deleteItemFunc = (el, idx) => {
       dataArr.splice(idx, 1);
       console.log(dataArr);
+      document.getElementById("cart-length").innerText=dataArr.length;
       localStorage.setItem("cart", JSON.stringify(dataArr));
       appendData(dataArr);
 };

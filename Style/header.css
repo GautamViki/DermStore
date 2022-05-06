@@ -3,8 +3,23 @@ body {
       font-family: Arial, Helvetica, sans-serif;
 }
 #topHead{
-      height: 40px;
-      background-color: #e7e9eb;
+      height: 30px;
+      background-color: #f3f3f3;
+}
+#_count>a>p{
+      display: flex;
+      text-align: center;
+      align-items: center;
+}
+#cart-length{
+      font-weight: bold;
+      padding: 1px 5px;
+      border-radius: 10px;
+      font-size: 14px;
+      background-color: black;
+      color: white;
+      margin-left: -15px;
+      margin-bottom: 10px;
 }
 #img {
       margin-top: 5px;
