@@ -1,5 +1,6 @@
 body{
-    width: 100%;
+    width: 98.6%;
+    margin: auto;
 }
 #container1{
     display: flex;
@@ -63,7 +64,7 @@ body{
       cursor: pointer;
       font-size: larger;
  }
- h1{
+ #hh{
    text-align: center;
    font-weight: 80; 
    margin-top: 100px;
@@ -101,6 +102,7 @@ body{
     gap: 40px;
     width: 96%;
     margin: auto;
+    margin-top: 50px;
  }
  h4:hover{
     text-decoration: underline;
@@ -108,9 +110,9 @@ body{
  #container3{
     /* gap: 20px; */
     text-align: center;
-    margin-top: 100px;
     width: 96%;
     margin: auto;
+    margin-top: 50px;
     gap: 1%;
  }
  #btn{
@@ -338,9 +340,10 @@ height: 215px;
 margin-left: -29px;
 width: 100%;
 /* border: 1px solid; */
-margin-top: 100px;
+
 display: flex;
 margin: auto;
+margin-top: 100px;
 
 }
 #nine>img{
