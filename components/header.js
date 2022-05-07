@@ -24,7 +24,7 @@ function vikasHead() {
                 src="https://cdn.iconscout.com/icon/free/png-64/account-dashboard-man-person-profile-avatar-31698.png"
                 alt=""
           />
-          <a href="#"><p>Account</p></a>
+          <a href="/login.html"><p>Account</p></a>
     </div>
     <div id="_count">
           <img
