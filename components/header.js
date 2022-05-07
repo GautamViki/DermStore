@@ -24,7 +24,7 @@ function vikasHead() {
                 src="https://cdn.iconscout.com/icon/free/png-64/account-dashboard-man-person-profile-avatar-31698.png"
                 alt=""
           />
-          <a href="/login.html"><p>Account</p></a>
+          <a href="login.html"><p>Account</p></a>
     </div>
     <div id="_count">
           <img
@@ -654,7 +654,7 @@ function footer() {
       <div id="_a">
           <div id="pb">
               <p>Sign up to our newsletters and receive the latest exclusive discounts and deals</p>
-              <button id="_btn"><a href="/login.html">SIGN ME UP</a></button>
+              <button id="_btn"><a href="login.html">SIGN ME UP</a></button>
           </div>
       </div> 
   
