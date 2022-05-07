@@ -4,7 +4,7 @@ function vikasHead() {
     <a href="index.html">
           <img
                 id="img"
-                src="/Image/dermstore-coupon-promo-discount-code-logo.png"
+                src="https://s1.thcdn.com/enterprise/assets/dermstore-global-a3ce7f42-4a2c-4cc5-ad05-ba594900fa02-logo-default.svg"
                 alt=""
     /></a>
     <div>
