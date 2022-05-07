@@ -1,0 +1,193 @@
+body{
+    background-color: #F2F2F2;
+}
+#navbar-start{
+    width:100%;
+    height:75px;
+    background-color:#FFFFFF;
+    /* border: 1px solid black; */
+}
+#navbar-start>img{
+    width:195px;
+    height:75px;
+    margin-left: 65px;
+}
+#signup-details{
+    display:flex;
+    height:1500px;
+    width:725px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 50px;
+}
+#h1-hai{
+    font-weight: lighter;
+    font-size: 26px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#h2-hai{
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 80px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    color:#333333;
+}
+#button-for-signup>button{
+    margin-left: 25px;
+    height: 45px;
+    width:320px;
+    gap:5px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    font-size:14px;
+    font-weight: bold;
+    /* padding-bottom: px; */
+}
+#icon:hover{
+   background-color:#F2F2F2 ;
+   border: none;
+}
+#user-detail-box{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+#user-detail-box>p {
+      font-size: 14px;
+      font-weight: bold;
+}
+.input-box{
+   width:650px;
+   height:45px;
+   border-radius: 5px;
+   border:1px solid black;
+}
+#change-color{
+   color:#666666;
+}
+#Referral-code{
+   width:653px;
+   height:145px;
+   background-color: #F2F2F2 ;
+   margin-left: 30px;
+   margin-top: 50px;
+}
+#refral{
+   width:610px;
+   margin: auto;
+   margin-left: 20px;
+}
+#refral-para{
+   margin-left: 30px;
+   font-family: sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+}
+#refral-promo{
+   margin-left: 30px;
+   font-family: sans-serif;
+   color:#666666;
+   font-size: 14px;
+   font-weight: bold;
+}
+#loyality-program{
+   margin-left: 30px;
+   font-family: sans-serif;
+   margin-top: 30px;
+   font-weight:bold ;
+   font-size: 14px;
+}
+#checkbox{
+  height:25px;
+  width:25px;
+  margin-top: 40px;
+  margin-left: 40px;
+
+}
+#checkbox-para{
+   margin-left: 75px;
+   margin-top: -25px;
+   font-family: sans-serif;
+   font-size: 14px;
+   font-weight: lighter;
+}
+#button{
+   height: 45px;
+   width:650px;
+   margin-left: 30px;
+   background-color: #333333;
+   color: #FFFFFF;
+   font-weight: bold;
+   border:none;
+   font-size: 15px;
+   margin-top: 30px;
+}
+#last-line{
+margin-left: 30px;
+    margin-top: 20px; 
+   font-family: sans-serif;
+   font-size: 14px;
+   font-weight: lighter;
+}
+#button:hover{
+background-color: #7e7e7e;
+}
+#name{
+   background-color: #FAE8E6;
+   color:#C42C21;
+   /* padding:5px; */
+   font-size: 14px;
+   font-family: sans-serif;
+   margin-top: 5px;
+   width:655px;
+   display: flex;
+   /* gap: 10px; */
+   visibility:hidden;
+}
+#name>p{
+   margin-top: 10px;
+}
+#X-name{
+background-color: #FAE8E6;
+   color:#C42C21;
+   /* padding:5px; */
+   font-size: 14px;
+   font-family: sans-serif;
+   margin-top: 5px;
+   width:655px;
+   display: flex;
+   /* gap: 10px; */
+   visibility:hidden;
+}
+#X-name>p{
+   margin-top: 10px;
+}
+#Y-name{
+background-color: #FAE8E6;
+   color:#C42C21;
+   /* padding:5px; */
+   font-size: 14px;
+   font-family: sans-serif;
+   margin-top: 5px;
+   width:655px;
+   display: flex;
+   /* gap: 10px; */
+   visibility:hidden;
+}
+#Y-name>p{
+   margin-top: 10px;
+}
+/* #name-start{
+   margin-top: 60px;
+}
+#name-para{
+   margin: 50px;
+} */
+#e-para{
+   margin-top: -25px;
+}
+#c-para{
+   margin-top: -20px;
+}

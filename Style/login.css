@@ -1,0 +1,134 @@
+body{
+    background-color: #F2F2F2;
+}
+#navbar-start{
+    width:100%;
+    height:75px;
+    background-color:#FFFFFF;
+    /* border: 1px solid black; */
+}
+#navbar-start>img{
+    width:195px;
+    height:75px;
+    margin-left: 65px;
+}
+#login-start{
+    margin-top:50px;
+    margin-left: 250px;
+    gap:-10px;
+    width:455px;
+    height:590px;
+    background-color: #FFFFFF;
+    /* border: 1px solid black; */
+}
+
+#h2{
+   font-weight: lighter;
+   margin-top: 40px;
+   margin-left: 30px;
+}
+#email-adress{
+   margin-left: 30px;
+   margin-top: 30px;
+   font-family: sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+   color: #333333;
+}
+#passord-deatil{
+margin-left: 30px;
+   margin-top: 30px;
+   font-family: sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+   color: #333333;
+}
+#passord-forget{
+margin-left: 30px;
+   margin-top: 55px;
+   font-family: sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+   color: #333333;
+}
+#passord-forget:hover{
+   text-decoration-line: underline;
+}
+#email{
+  height: 46px;
+  width:385px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#password{
+height: 46px;
+  width:385px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#login-to-account{
+   height: 46px;
+   width:385px;
+   margin-left: 30px;
+   margin-top: 20px;
+   font-weight: bold;
+   background-color: #222222;
+   color:#FFFFFF;
+   border: none;
+   font-size: 15px;
+}
+#login-to-account:hover{
+background-color: #7e7e7e;
+
+}  
+#continue{
+   margin-left: 30px;
+   margin-top: 40px;
+   font-family: sans-serif;
+   font-weight: lighter;
+   font-size: 15px;
+   color: #333333;
+}
+#button{
+   display:flex;
+   gap:5%;
+  margin-left: 23px;
+  margin-top: 30px;
+
+}
+#register{
+   /* display: flex; */
+   height:175px;
+   width:455px;
+   background-color:  #FFFFFF;
+   /* border: 1px solid black; */
+   margin-left: 49%;
+   margin-top: -42.5%;
+}
+
+#register-h2{
+font-weight: lighter;
+font-size: 25px;
+   margin-top: 40px;
+   margin-left: 30px;
+   color:#333333;
+}
+#register-button{
+height: 46px;
+   width:385px;
+   margin-left: 30px;
+   margin-top: 20px;
+   font-weight: bold;
+   background-color: #222222;
+   color:#FFFFFF;
+   border: none;
+   font-size: 15px;
+}
+#register-button:hover{
+background-color: #7e7e7e;
+
+} 
+#link{
+color: #FFFFFF;
+   text-decoration: none;
+} 
