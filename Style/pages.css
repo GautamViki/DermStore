@@ -103,3 +103,73 @@ body {
     background-color: rgb(94, 90, 90);
     border: rgb(94, 90, 90);
   }
+
+  #first{
+    margin-left: -29px;
+    width: 107%;
+     /* border: 1px solid; */
+     height: 56px;
+     display: flex;
+     background-color: #f2f2f2;
+     align-items: center;
+    
+ }
+ 
+ #second{
+     height: 56px;
+     width: 107%;
+     margin-left: -29px;
+ 
+     /* border: 1px solid; */
+     display: flex;
+     align-content: center;
+     background-color: #cccccc;
+     cursor: pointer;
+ }
+ #second:hover{
+     background-color: #e7e6e6;
+ }
+ #smallsec{
+     height: 25px;
+     width: 80%;
+     /* border: 1px solid; */
+     margin: auto;
+     font-size: 14px;
+     font-weight: 700;
+     color: #333333;
+     line-height: 20px;
+     font-family: "lato regular", Helvetica, Arial, sans-serif;
+     text-align: center;
+     padding-top: 3px;
+     
+     
+ }
+ .firstsmall{
+     height: 30px;
+     width: auto;
+     /* border: 1px solid; */
+     /* margin: auto; */
+     display: flex;
+     margin: auto;
+     cursor: pointer;
+     
+     
+ }
+ .secondsmall{
+     height: 100%;
+     width: auto;
+     /* border: 1px solid; */
+     margin-left: 12px;
+     display: flex;
+     align-items: center;
+     font-family: "lato regular", Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 20px;
+     color: #000000;
+ }
+ .firstsmall>i{
+     font-size: 20px;
+     display: flex;
+     align-items: center;
+ }

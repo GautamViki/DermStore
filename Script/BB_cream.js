@@ -1,6 +1,12 @@
 import { vikasHead,footer } from "../components/header.js";
+
+document.getElementById("_header").innerHTML = vikasHead();
+
+document.getElementById("footer").innerHTML = footer();
+
 document.getElementById("_header").innerHTML=vikasHead();
 document.getElementById("footer").innerHTML=footer();
+
 
 let cartdata = JSON.parse(localStorage.getItem("cart")) || [];
 document.getElementById("cart-length").innerText=cartdata.length;
