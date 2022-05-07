@@ -1,10 +1,15 @@
 import { vikasHead,footer } from "../components/header.js";
+
 document.getElementById("_header").innerHTML = vikasHead();
 
 document.getElementById("footer").innerHTML = footer();
 
-let cartdata = JSON.parse(localStorage.getItem("cart")) || [];
+document.getElementById("_header").innerHTML=vikasHead();
+document.getElementById("footer").innerHTML=footer();
 
+
+let cartdata = JSON.parse(localStorage.getItem("cart")) || [];
+document.getElementById("cart-length").innerText=cartdata.length;
 let inputdata = [
   {
     price: 29,
@@ -385,5 +390,7 @@ function display_store_data(inputdata) {
 function addtocart(el) {
   console.log("chill bro");
   cartdata.push(el);
+  document.getElementById("cart-length").innerText=cartdata.length;
+
   localStorage.setItem("cart", JSON.stringify(cartdata));
 }

@@ -114,12 +114,22 @@ let placedOrderFunc = () => {
                   err.innerHTML = "";
             }
       }
-      if(cvv==="" || month===""||year===""|| nameOnCard==="" ||cardNum===""||num===""||name===""||email===""){
-          console.log("fill")
-          return;
-      }
-      else{
-          window.open("/orderPlaced.html","_self")
+      if (
+            cvv === "" ||
+            month === "" ||
+            year === "" ||
+            nameOnCard === "" ||
+            cardNum === "" ||
+            num === "" ||
+            name === "" ||
+            email === ""
+      ) {
+            console.log("fill");
+            return;
+      } else {
+            let arrData = [];
+            localStorage.setItem("cart", JSON.stringify(arrData));
+            window.open("/orderPlaced.html", "_self");
       }
 };
 
