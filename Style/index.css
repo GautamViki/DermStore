@@ -2,6 +2,15 @@
       text-decoration: none;
       color: black;
 }
+#seven > div a {
+      text-decoration: none;
+      color: black;
+}
+
+body {
+      width: 98.6%;
+      margin: auto;
+}
 
 body {
       width: 98.5%;
