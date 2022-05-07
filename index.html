@@ -8,436 +8,14 @@
     <script src="https://kit.fontawesome.com/36e5c98c7f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Style/slick.css">
     <link rel="stylesheet" href="./Style/slick-theme.css">
+    <link rel="stylesheet" href="/Style/index.css">
+    <link rel="stylesheet" href="/Style/header.css">
+    <link rel="stylesheet" href="/Style/footer.css">
 
-    <style>
-       
-
-
-       #container2{
-           display:flex;
-        }
-        #container1_1{
-           height: 200px;
-           width: 50%;
-           /* padding-top: 70px; */
-        }
-     #container1>div{
-            text-align: center;
-            font-family: sans-serif;
-            letter-spacing: 2px;
-            font-size: 17px;
-            position: relative;
-            width: 100%;
-            cursor: pointer;
-            }
-            #container1_1>div{
-            text-align: center;
-            font-family: sans-serif;
-            letter-spacing: 2px;
-            font-size: 17px;
-            position: relative;
-            cursor: pointer;
-         }
-           .outer{
-            position: relative;
-            height: 100%;
-            width: 30%;
-        }
-        .outer img,.inner img{
-            width: 70%;
-
-        }
-        .inner{
-            position: absolute;
-            top: 0;
-            left: 0;
-            display: none; 
-
-        }
-        .outer:hover .inner{
-            display: block;
-        }
-        
-        button{
-            
-            margin-top: 50px;
-            background-color: black;
-            color: white;
-             height: 40px;
-             width: 80%;
-             cursor: pointer;
-             font-size: larger;
-        }
-        h1{
-          text-align: center;
-          font-weight: 80; 
-          margin-top: 100px;
-        }
-        #headingp{
-           text-align: center;
-           font-family: sans-serif;
-        }
-       
-        .iimgg{
-            width: 100%;
-            cursor: pointer;
-            
-        }
-        #spic{
-           width: 90%;
-           height: 500px;
-        }
-        #div1{
-           display: grid;
-           grid-template-columns: repeat(3,1fr);
-           gap: 20px;
-           margin-top: 40px;
-           cursor: pointer;
-           text-align: center;
-           font-family: sans-serif;
-           font-size: 14px;
-        }
-        #div_img{
-           width: 100%;
-        }
-        #container1_2{
-           cursor: pointer;
-           gap: 70px;
-        }
-        h4:hover{
-           text-decoration: underline;
-        }
-        #container3{
-           gap: 40px;
-           text-align: center;
-           margin-top: 100px;
-        }
-        #btn{
-           background-color: white;
-           width: 50%;
-           color: black;
-           border: 1px solid grey;
-           
-
-        }
-
-        /* yaha se yash ke css */
-        #containerB{
-           display:flex;
-        }
-        #container1_B{
-           height: 200px;
-           width: 50%;
-           /* padding-top: 70px; */
-        }
-
-        #container1_B>div{
-            text-align: center;
-            font-family: sans-serif;
-            letter-spacing: 2px;
-            font-size: 17px;
-            position: relative;
-            cursor: pointer;
-         }
-
-
-#slideshow>img{
-    width: 107%;
-    height: 500px;
-    margin-left: -29px;
-}
-
-.images{
-    width: 100%;
-    height: 300px;
-    
-}
-
-#first{
-   margin-left: -29px;
-   width: 107%;
-    /* border: 1px solid; */
-    height: 56px;
-    display: flex;
-    background-color: #f2f2f2;
-    align-items: center;
-   
-}
-
-#second{
-    height: 56px;
-    width: 107%;
-    margin-left: -29px;
-
-    /* border: 1px solid; */
-    display: flex;
-    align-content: center;
-    background-color: #cccccc;
-    cursor: pointer;
-}
-#second:hover{
-    background-color: #e7e6e6;
-}
-#smallsec{
-    height: 25px;
-    width: 80%;
-    /* border: 1px solid; */
-    margin: auto;
-    font-size: 14px;
-    font-weight: 700;
-    color: #333333;
-    line-height: 20px;
-    font-family: "lato regular", Helvetica, Arial, sans-serif;
-    text-align: center;
-    padding-top: 3px;
-    
-    
-}
-.firstsmall{
-    height: 30px;
-    width: auto;
-    /* border: 1px solid; */
-    /* margin: auto; */
-    display: flex;
-    margin: auto;
-    cursor: pointer;
-    
-    
-}
-.secondsmall{
-    height: 100%;
-    width: auto;
-    /* border: 1px solid; */
-    margin-left: 12px;
-    display: flex;
-    align-items: center;
-    font-family: "lato regular", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    color: #000000;
-}
-.firstsmall>i{
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-}
-#third{
-    height: 40px;
-    width: 100%;
-    /* border: 1px solid; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
-    font-family: "Poly Regular", "Times New Roman", serif;
-    color: black;
-    margin-top: 20px;
-}
-#fourth{
-    height: 30px;
-    width: 100%;
-    /* border: 1px solid; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    font-family: "lato regular", Helvetica, Arial, sans-serif;
-    color: black;
-}
-#five{
-    height: 600px;
-    width: 100%;
-    /* border: 1px solid; */
-    display: flex;
-    margin-top: 25px;
-}
-#firstfive{
-    height: 100%;
-    width: 40%;
-    /* border: 1px solid; */
-    margin-left: 30px;
-}
-#secondfive{
-    height: 100%;
-    width: 56%;
-    border: 1px solid;
-}
-#firstfive>img{
-    width: 100%;
-}
-#six{
-    height: 40px;
-    width: 100%;
-    /* border: 1px solid; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
-    font-family: "Poly Regular", "Times New Roman", serif;
-    color: black;
-    margin-top: 20px;
-}
-#seven{
-    width: 100%;
-    height: 150px;
-    /* border: 1px solid; */
-    display: grid;
-    grid-template-columns: repeat(4,330px);
-    grid-template-rows: repeat(2,50px);
-    gap: 30px;
-    justify-content: center;
-    margin-top: 40px;
-    
-}
-#seven>div{
-    border: 3px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 400;
-    font-family: "lato regular", Helvetica, Arial, sans-serif;
-    color: #000000;
-    cursor: pointer;
-}
-#seven>div:hover{
-    background-color:  #cccccc;
-}
-#eight{
-    height: 40px;
-    width: 100%;
-    /* border: 1px solid; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
-    font-family: "Poly Regular", "Times New Roman", serif;
-    color: black;
-    margin-top: 20px;
-}
-#nine{
-    height: 215px;
-    margin-left: -29px;
-   width: 107%;
-    /* border: 1px solid; */
-    margin-top: 100px;
-    display: flex;
-    
-}
-#nine>img{
-    width: 100%;
-}
-
-#ten{
-    height: 40px;
-    width: 100%;
-    /* border: 1px solid; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
-    font-family: "Poly Regular", "Times New Roman", serif;
-    color: black;
-    margin-top: 35px;
-}
-
-#eleven{
-    height: auto;
-    width: 100%;
-    /* border: 1px solid; */
-    margin-top: 30px;
-    display: flex;
-}
-#eleven>div{
-    height: auto;
-    width: 17%;
-    /* border: 1px solid; */
-    margin: auto;
-
-}
-#eleven>div>img{
-    width: 80%;
-    margin-left: 20px;
-
-}
-/* /* #twelve{
-    height: 650px;
-    width: 100%;
-} */
-#twelve>video{
-  width: 100%;
-  margin-top: 120px;
-}
-#thirteen{
-    height: auto;
-    width: 100%;
-    /* border: 1px solid; */
-}
-#firstthir{
-    height: 70px;
-    width: 100%;
-    /* border: 1px solid; */
-    text-align: center;
-    font-family: "Poly Regular", "Times New Roman", serif;
-    font-size: 26px;
-    line-height: 32px;
-    font-weight: 400;
-    color: #000000;
-    padding-top: 15px;
-}
-#secthir{
-    height: auto;
-    width: 95%;
-    /* border: 1px solid; */
-    margin: auto;
-    text-align: center;
-    font-family: "Poly Regular", "Times New Roman", serif;
-    font-size: 16.8px;
-    line-height: 25px;
-    font-weight: 500;
-    color: #000000;
-}
-
-#fourteen{
-    height: 215px;
-    width: 100%;
-    /* border: 1px solid; */
-    margin-top: 50px;
-}
-#fourteen>img{
-    /* width: 100%; */
-    height: 100%;
-    margin-left: -29px;
-   width: 107%;
-
-}
-/* #container1{
-    height: 350px;
-    width: 100%;
-    border: 1px solid;
-    display: flex;
-
-} */
-
-        
-       
-    </style>
 </head>
 <body>
-
+   <div id="topHead"></div>
+   <div id="_header"></div>
    <!-- yash upper items -->
 
    <div id="first">
@@ -520,7 +98,7 @@
        </span>
        <p>$169.00</p>
      
-       <button>QUICK BUY</button>
+       <button class="g button">QUICK BUY</button>
 
        </div>
       <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289683-2074871019620370.jpg" alt=""class="iimgg">
@@ -539,7 +117,7 @@
          </span>
          <p>$39.00</p>
       
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
 
         
      </div>
@@ -559,7 +137,7 @@
          </span>
          <p>$250.00</p>
       
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
 
      </div>
       <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/13166541-5534873650283080.jpg" alt="" class="iimgg">
@@ -578,7 +156,7 @@
          </span>
          <p>$19.00</p>
       
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
 
      </div>
      <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/13221359-5284892018892912.jpg" alt="" class="iimgg">
@@ -597,7 +175,7 @@
       </span>
       <p>$169.00</p>
   
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291496-1824871578503201.jpg" alt="" class="iimgg">
@@ -616,7 +194,7 @@
        </span>
        <p>$99.00</p>
      
-       <button>QUICK BUY</button>
+       <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -633,7 +211,7 @@
          <i>432</i>
       </span>
       <p>$111.00</p>
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11288881-2564864563047535.jpg" alt="" class="iimgg">
@@ -650,7 +228,7 @@
           <i>4382</i>
        </span>
        <p>$169.00</p>
-       <button>QUICK BUY</button>
+       <button class="g button">QUICK BUY</button>
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11588281-8764882139037003.jpg" alt="" class="iimgg">
       <div class="inner">
@@ -666,7 +244,7 @@
          <i>4382</i>
       </span>
       <p>$169.00</p>
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -683,7 +261,7 @@
          <i>432</i>
       </span>
       <p>$111.00</p>
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -700,7 +278,7 @@
           <i>4382</i>
        </span>
        <p>$169.00</p>
-       <button>QUICK BUY</button>
+       <button class="g button">QUICK BUY</button>
   </div>
 
 </div>
@@ -752,7 +330,7 @@
          </span>
          <p>$169.00</p>
        
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
 
          </div>
         <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11370303-1074944341868735.jpg" alt=""class="iimgg">
@@ -771,7 +349,7 @@
            </span>
            <p>$39.00</p>
         
-           <button>QUICK BUY</button>
+           <button class="g button">QUICK BUY</button>
 
           
        </div>
@@ -791,7 +369,7 @@
            </span>
            <p>$250.00</p>
         
-           <button>QUICK BUY</button>
+           <button class="g button">QUICK BUY</button>
 
        </div>
         <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11588281-8764882139037003.jpg" alt="" class="iimgg">
@@ -810,7 +388,7 @@
            </span>
            <p>$19.00</p>
         
-           <button>QUICK BUY</button>
+           <button class="g button">QUICK BUY</button>
 
        </div>
        <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11290635-2054892767941057.jpg" alt="" class="iimgg">
@@ -829,7 +407,7 @@
         </span>
         <p>$169.00</p>
     
-        <button>QUICK BUY</button>
+        <button class="g button">QUICK BUY</button>
 
     </div>
     <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291496-1824871578503201.jpg" alt="" class="iimgg">
@@ -848,7 +426,7 @@
          </span>
          <p>$99.00</p>
        
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
 
     </div>
     <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -865,7 +443,7 @@
            <i>432</i>
         </span>
         <p>$111.00</p>
-        <button>QUICK BUY</button>
+        <button class="g button">QUICK BUY</button>
 
     </div>
     <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11288881-2564864563047535.jpg" alt="" class="iimgg">
@@ -882,7 +460,7 @@
             <i>4382</i>
          </span>
          <p>$169.00</p>
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
     </div>
     <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11588281-8764882139037003.jpg" alt="" class="iimgg">
         <div class="inner">
@@ -898,7 +476,7 @@
            <i>4382</i>
         </span>
         <p>$169.00</p>
-        <button>QUICK BUY</button>
+        <button class="g button">QUICK BUY</button>
 
     </div>
     <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -915,7 +493,7 @@
            <i>432</i>
         </span>
         <p>$111.00</p>
-        <button>QUICK BUY</button>
+        <button class="g button"QUICK BUY</button>
 
     </div>
     <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -932,7 +510,7 @@
             <i>4382</i>
          </span>
          <p>$169.00</p>
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
     </div>
 
 </div>
@@ -964,7 +542,7 @@
        </span>
        <p>$169.00</p>
      
-       <button>QUICK BUY</button>
+       <button class="g button">QUICK BUY</button>
 
        </div>
       <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/12434369-1354902066725478.jpg" alt=""class="iimgg">
@@ -983,7 +561,7 @@
          </span>
          <p>$39.00</p>
       
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
 
         
      </div>
@@ -1003,7 +581,7 @@
          </span>
          <p>$250.00</p>
       
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
 
      </div>
       <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/13166541-5534873650283080.jpg" alt="" class="iimgg">
@@ -1022,7 +600,7 @@
          </span>
          <p>$19.00</p>
       
-         <button>QUICK BUY</button>
+         <button class="g button">QUICK BUY</button>
 
      </div>
      <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/13221359-5284892018892912.jpg" alt="" class="iimgg">
@@ -1041,7 +619,7 @@
       </span>
       <p>$169.00</p>
   
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291496-1824871578503201.jpg" alt="" class="iimgg">
@@ -1060,7 +638,7 @@
        </span>
        <p>$99.00</p>
      
-       <button>QUICK BUY</button>
+       <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -1077,7 +655,7 @@
          <i>432</i>
       </span>
       <p>$111.00</p>
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11288881-2564864563047535.jpg" alt="" class="iimgg">
@@ -1094,7 +672,7 @@
           <i>4382</i>
        </span>
        <p>$169.00</p>
-       <button>QUICK BUY</button>
+       <button class="g button">QUICK BUY</button>
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11588281-8764882139037003.jpg" alt="" class="iimgg">
       <div class="inner">
@@ -1110,7 +688,7 @@
          <i>4382</i>
       </span>
       <p>$169.00</p>
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -1127,7 +705,7 @@
          <i>432</i>
       </span>
       <p>$111.00</p>
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -1144,7 +722,7 @@
           <i>4382</i>
        </span>
        <p>$169.00</p>
-       <button>QUICK BUY</button>
+       <button class="g button">QUICK BUY</button>
   </div>
 
 </div>
@@ -1212,7 +790,7 @@
    <p id="ptag">TULA Bright Start Vitamin C Antioxidant </p>
      <button id="btn">New Arrival</button>
     <p>$19.00</p>
-   <button>QUICK BUY</button>
+   <button class="g button">QUICK BUY</button>
 </div>
    <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11370303-1074944341868735.jpg" alt=""class="iimgg">
       <div class="inner">
@@ -1222,7 +800,7 @@
       <button id="btn">New Arrival</button>
 
        <p>$39.00</p>
-    <button>QUICK BUY</button>
+    <button class="g button">QUICK BUY</button>
 
      
   </div>
@@ -1236,7 +814,7 @@
 
       <p>$50.00</p>
    
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
    <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11588281-8764882139037003.jpg" alt="" class="iimgg">
@@ -1248,7 +826,7 @@
       <button id="btn">New Arrival</button>
       <p>$49.00</p>
    
-      <button>QUICK BUY</button>
+      <button class="g button">QUICK BUY</button>
 
   </div>
   <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11290635-2054892767941057.jpg" alt="" class="iimgg">
@@ -1261,7 +839,7 @@
 
    <p>$69.00</p>
 
-   <button>QUICK BUY</button>
+   <button class="g button">QUICK BUY</button>
 
 </div>
 <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291496-1824871578503201.jpg" alt="" class="iimgg">
@@ -1274,7 +852,7 @@
 
     <p>$65.00</p>
   
-    <button>QUICK BUY</button>
+    <button class="g button">QUICK BUY</button>
 
 </div>
 <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -1285,7 +863,7 @@
    <button id="btn">New Arrival</button>
 
    <p>$11.00</p>
-   <button>QUICK BUY</button>
+   <button class="g button">QUICK BUY</button>
 
 </div>
 <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11288881-2564864563047535.jpg" alt="" class="iimgg">
@@ -1296,7 +874,7 @@
    <button id="btn">New Arrival</button>
 
     <p>$19.00</p>
-    <button>QUICK BUY</button>
+    <button class="g button">QUICK BUY</button>
 </div>
 <div class="outer"><img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11588281-8764882139037003.jpg" alt="" class="iimgg">
    <div class="inner">
@@ -1306,7 +884,7 @@
    <button id="btn">New Arrival</button>
 
    <p>$79.00</p>
-   <button>QUICK BUY</button>
+   <button class="g button">QUICK BUY</button>
 
 </div>
 <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -1317,7 +895,7 @@
    <button id="btn">New Arrival</button>
 
    <p>$64.00</p>
-   <button>QUICK BUY</button>
+   <button class="g button">QUICK BUY</button>
 
 </div>
 <div class="outer"><img src="https://static.thcdn.com/images/small/webp//productimg/original/11291956-2074871578544985.jpg" alt="" class="iimgg">
@@ -1328,7 +906,7 @@
    <button id="btn">New Arrival</button>
 
     <p>$39.00</p>
-    <button>QUICK BUY</button>
+    <button class="g button">QUICK BUY</button>
 </div>
 
 </div>
@@ -1389,217 +967,13 @@ We care about what goes on your skin, because of what’s within. Our assortment
 
  
     
-
+<div id="footer"></div>
 
     <script src="./Script/jquery.js"></script>
     <script src="./Script/slick.min.js"></script>
 
-    <script>
-        $(document).ready(function(){
-            $('#container1').slick({
-           infinite: true,
-            slidesToShow: 5 ,
-           slidesToScroll: 4,
-           dots:true,
-           responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-            });
-        })
-
-
-        $(document).ready(function(){
-            $('#container1_1').slick({
-               infinite: true,
-            slidesToShow: 2 ,
-           slidesToScroll: 2,
-         //   dots:true,
-         responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-            });
-        })
-
-
-
-        $(document).ready(function(){
-            $('#container1_2').slick({
-               infinite: true,
-            slidesToShow: 4 ,
-           slidesToScroll: 4,
-           dots:true,
-         responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-            });
-        })
-
-
-        ////
-
-
-        $(document).ready(function(){
-            $('#container3').slick({
-               infinite: true,
-            slidesToShow: 5 ,
-           slidesToScroll: 5,
-           dots:true,
-         responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-            });
-        })
-
-
-// slide upper
-
-let imgdata = [
-    image="https://static.thcdn.com/images/xlarge/webp/widgets/208-us/43/original-0429-STDCRE-35399-DS-AMR-May_Batch_Shot32-HomePage_1920x700-014443.jpg",
-    image="https://static.thcdn.com/images/xlarge/webp/widgets/208-us/04/original-1904_THG0034748_DERMSTOREMAY_SHOT1_1920x700-054404.png",
-    
-]
-
-
-
-let images_div = document.getElementById("slideshow")
-let i=0;
-let id;
-
-    let img = document.createElement("img");
-  
-    id=setInterval(function(){
-        if(i===imgdata.length){
-            i=0;
-        }
-        images_div.innerHTML=null;
-        img.src=imgdata[i];
-        images_div.append(img);
-        i++;
-    },2000);
-
-
-
-    $(document).ready(function(){
-            $('#container1_B').slick({
-               infinite: true,
-            slidesToShow: 2 ,
-           slidesToScroll: 2,
-         //   dots:true,
-         responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-            });
-        })
-    </script>
+   
 </body>
 </html>
+<script src="/Script/index.js"></script>
+<script src="/Script/gauravIndex.js" type="module"></script>

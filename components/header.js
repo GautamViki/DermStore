@@ -32,8 +32,6 @@ function vikasHead() {
                 alt=""
           />
 
-          <a href="cart.html"> <p>Cart</p></a>
-
           <a href="cart.html"> <p><span id="cart-length"></span>
           Cart</p></a>
 

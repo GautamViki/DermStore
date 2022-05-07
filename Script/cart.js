@@ -1,10 +1,9 @@
+import { vikasHead, footer } from "../components/header.js";
+document.getElementById("_header").innerHTML = vikasHead();
+document.getElementById("footer").innerHTML = footer();
 
-import { vikasHead,footer } from "../components/header.js";
-document.getElementById("_header").innerHTML=vikasHead();
-document.getElementById("footer").innerHTML=footer();
-
-let dataArr = JSON.parse(localStorage.getItem("cart"))||[];
-document.getElementById("cart-length").innerText=dataArr.length;
+let dataArr = JSON.parse(localStorage.getItem("cart")) || [];
+document.getElementById("cart-length").innerText = dataArr.length;
 // console.log(dataArr);
 let appendData = (dataArr) => {
       document.getElementById("cart-show").innerHTML = null;
@@ -82,6 +81,7 @@ let appendData = (dataArr) => {
                   if (arrTo[0] <= 0) {
                         cartBox.style.border = "none";
                         cartBox.innerHTML = null;
+                        // dataArr.splice(idx, 1);
                   }
                   counting.innerText = arrTo[0];
                   totalPrice.innerText = arrTo[1];
@@ -169,6 +169,11 @@ let decreFunc = (el, idx, count, pr) => {
       count--;
       pr = pr - Number(el.price);
       console.log(typeof pr, pr);
+      if (count == 0) {
+            dataArr.splice(idx, 1);
+            document.getElementById("cart-length").innerText = dataArr.length;
+            localStorage.setItem("cart", JSON.stringify(dataArr));
+      }
       return [count, pr];
 };
 
@@ -182,7 +187,7 @@ let increFunc = (el, idx, count, pr) => {
 let deleteItemFunc = (el, idx) => {
       dataArr.splice(idx, 1);
       console.log(dataArr);
-      document.getElementById("cart-length").innerText=dataArr.length;
+      document.getElementById("cart-length").innerText = dataArr.length;
       localStorage.setItem("cart", JSON.stringify(dataArr));
       appendData(dataArr);
 };
