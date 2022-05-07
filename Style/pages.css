@@ -106,7 +106,7 @@ body {
 
   #first{
     margin-left: -29px;
-    width: 107%;
+    /* width: 107%; */
      /* border: 1px solid; */
      height: 56px;
      display: flex;
@@ -117,7 +117,7 @@ body {
  
  #second{
      height: 56px;
-     width: 107%;
+     /* width: 107%; */
      margin-left: -29px;
  
      /* border: 1px solid; */
