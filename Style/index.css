@@ -421,10 +421,14 @@ h4:hover {
       width: 100%;
       /* border: 1px solid; */
       margin-top: 50px;
+      display: flex;
+      margin: auto;
 }
 #fourteen > img {
       /* width: 100%; */
       height: 100%;
       margin-left: -29px;
       width: 100%;
+      display: flex;
+      margin: auto;
 }
