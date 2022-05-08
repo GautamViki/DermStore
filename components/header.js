@@ -654,7 +654,7 @@ function footer() {
       <div id="_a">
           <div id="pb">
               <p>Sign up to our newsletters and receive the latest exclusive discounts and deals</p>
-              <button id="_btn"><a href="login.html">SIGN ME UP</a></button>
+              <button id="_btn"><a href="/DermStore/signup.html">SIGN ME UP</a></button>
           </div>
       </div> 
   

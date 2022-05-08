@@ -1,5 +1,3 @@
-
-
 #cart-container {
       width: 98%;
       margin: auto;
@@ -17,14 +15,14 @@
 #heading {
       font-size: 22px;
 }
-#button-Checkout >a>button {
+#button-Checkout > a > button {
       font-size: 14px;
       padding: 10px 30px;
       background-color: black;
       color: white;
       cursor: pointer;
 }
-#button-Checkout >a> button:hover {
+#button-Checkout > a > button:hover {
       background-color: rgb(75, 73, 73);
       border: 2px solid rgb(75, 73, 73);
 }
@@ -142,8 +140,13 @@
       padding: 10px 30px;
       background-color: white;
       /* color: white; */
+      text-decoration: none;
       cursor: pointer;
       border: 2px solid black;
+}
+#shop>button>a{
+      text-decoration: none;
+      color: black;
 }
 #shop > button:hover {
       background-color: #e2e2e2;

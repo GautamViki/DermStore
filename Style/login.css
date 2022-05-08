@@ -13,7 +13,7 @@ body {
       gap: 50px;
       margin-top: 50px;
 }
-#navbar-start > img {
+#navbar-start >a> img {
       width: 195px;
       height: 75px;
       margin-left: 65px;

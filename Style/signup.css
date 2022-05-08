@@ -10,7 +10,7 @@ body {
       margin-top: -8px;
       margin-right: -8px;
 }
-#navbar-start > img {
+#navbar-start >a> img {
       width: 195px;
       height: 75px;
       margin-left: 65px;

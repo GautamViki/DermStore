@@ -17,6 +17,10 @@ body {
       height: 45px;
       margin-left: 200px;
 }
+#checklog{
+      text-decoration: none;
+      color: white;
+}
 #checkout-container {
       width: 72%;
       /* background-color: white; */

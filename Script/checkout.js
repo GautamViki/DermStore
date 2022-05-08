@@ -129,7 +129,7 @@ let placedOrderFunc = () => {
       } else {
             let arrData = [];
             localStorage.setItem("cart", JSON.stringify(arrData));
-            window.open("/orderPlaced.html", "_self");
+            window.open("/DermStore/orderPlaced.html", "_self");
       }
 };
 

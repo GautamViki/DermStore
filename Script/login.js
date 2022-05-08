@@ -1,5 +1,5 @@
 var login_email = localStorage.getItem("userEmail");
-var login_password = localStorage.getItem("userPassword");
+var login_password = JSON.parse(localStorage.getItem("userPassword"));
 
 function login() {
       var input_email = document.getElementById("email").value;
