@@ -388,7 +388,7 @@ function display_store_data(inputdata) {
 }
 
 function addtocart(el) {
-  console.log("chill bro");
+  alert("Product is add to cart.")
   cartdata.push(el);
   document.getElementById("cart-length").innerText=cartdata.length;
 
