@@ -410,7 +410,7 @@ function display_store_data(inputdata) {
 }
 
 function addtocart(el) {
-      alert("Product is add to cart.")
+       alert("Item is add to cart.")
       cartdata.push(el);
       document.getElementById("cart-length").innerText=cartdata.length;
       localStorage.setItem("cart", JSON.stringify(cartdata));
