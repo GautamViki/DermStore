@@ -52,10 +52,16 @@ body {
       position: relative;
       height: 100%;
       width: 30%;
+      display: flex;
+      margin: auto;
+      margin-left: 10px;
+      /* border: 1px solid red; */
 }
 .outer img,
 .inner img {
-      width: 70%;
+      width: 80%;
+      display: flex;
+      margin: auto;
 }
 .inner {
       position: absolute;
@@ -68,7 +74,7 @@ body {
 }
 
 .g {
-      margin-top: 50px;
+      /* margin-top: 50px; */
       background-color: black;
       color: white;
       height: 40px;
@@ -126,11 +132,11 @@ h4:hover {
       margin-top: 50px;
       gap: 1%;
 }
-#btn {
+.btn {
       background-color: white;
-      width: 50%;
       color: black;
-      border: 1px solid grey;
+      /* border: 1px solid rgb(165, 34, 34); */
+      padding: 8px;
 }
 
 /* yaha se yash ke css */
@@ -421,10 +427,14 @@ h4:hover {
       width: 100%;
       /* border: 1px solid; */
       margin-top: 50px;
+      display: flex;
+      margin: auto;
 }
 #fourteen > img {
       /* width: 100%; */
       height: 100%;
       margin-left: -29px;
       width: 100%;
+      display: flex;
+      margin: auto;
 }

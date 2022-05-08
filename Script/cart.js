@@ -105,8 +105,6 @@ let appendData = (dataArr) => {
                   totalPrice.innerText = incArr[1];
                   totalCostOfAllProducts =
                         totalCostOfAllProducts + Number(el.price);
-                  // Number(totalPrice.innerText);
-                  // console.log(totalCostOfAllProducts);
                   document.querySelector(
                         ".total"
                   ).innerText = `$${totalCostOfAllProducts}`;
